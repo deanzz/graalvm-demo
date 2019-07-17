@@ -1,0 +1,4 @@
+
+
+GET /   graalvm.demo.controllers.DemoController.index
+GET /ping/:s   graalvm.demo.controllers.DemoController.ping(s: String)
