@@ -1,0 +1,151 @@
+syntax = "proto3";
+package graalvm.demo;
+import "google/protobuf/any.proto";
+
+message Schema {
+    repeated string name = 1;
+    repeated string type = 2;
+}
+
+message MongoConfig {
+    repeated string uri = 1;
+    string db = 2;
+    string table = 3;
+    Schema schema = 4;
+}
+
+message MongoSourceParam {
+    string filter = 1;
+    uint32 skip = 2;
+    string output = 3;
+}
+
+message NodeStateChanged {
+    string address = 1;
+    uint32 totalCpuNum = 2;
+    uint32 totalMemInMB = 3;
+    uint32 freeCpuNum = 4;
+    uint32 freeMemInMB = 5;
+    double load = 6;
+}
+
+message NodeServerResource {
+    uint32 cpuNum = 1;
+    uint32 memInMB = 2;
+    uint32 gpuNum = 3;
+    uint32 diskSizeInMB = 4;
+    uint32 slots = 5;
+}
+
+enum ConnectionType {
+    FILE = 0;
+    JDBC = 1;
+    MONGO = 2;
+    KAFKA = 3;
+    PULSAR = 4;
+    ALLUXIO = 5;
+    HDFS = 6;
+    FTP = 7;
+    OPC = 8;
+    MYSQL_BIN =9;
+    ORACLE_BIN = 10;
+    MYSQL_DUMP = 11;
+    CONSOLE = 12;
+}
+
+enum DataFormat {
+    CSV = 0;
+    JSON = 1;
+    PARQUET = 2;
+    AVRO = 3;
+    RESULTSET = 4;
+    BSON = 5;
+    BINLOG_ROW = 6;
+}
+
+message SourceInfo {
+    string id = 1;
+    ConnectionType connType = 2;
+    google.protobuf.Any connConfig = 3;
+    DataFormat format = 4;
+    google.protobuf.Any param = 5;
+}
+
+enum TransformerType {
+    SCHEMA_MAPPING = 0;
+    STATEFUL_FILTER = 1;
+    WINDOW = 2;
+    NULL_REPLACE = 3;
+    DUPLICATE_DROP = 4;
+    DIFF_THRESHOLD= 5;
+    MATCH_STATIC_DATA = 6;
+    STATELESS_FILTER = 7;
+    STREAM_STATISTIC = 8;
+    COLUMN_FILTER = 9;
+    DATA_TYPE_TRANSFORM = 10;
+    COLUMN_OPERATION = 11;
+    STRING_OPERATION = 12;
+}
+
+message TransformerInfo {
+    TransformerType transformerType = 1;
+    google.protobuf.Any param = 2;
+}
+
+message TaskInfo {
+    string id = 1;
+    SourceInfo source = 2;
+    repeated TransformerInfo transformers = 3;
+    uint32 monitorDuration = 4;
+}
+
+enum TaskStatus {
+    RUNNING = 0;
+    COMPLETE = 1;
+    TERMINATED = 2;
+    FAILED = 3;
+}
+
+message TaskState {
+    string id = 1;
+    TaskStatus status = 2;
+    TaskInfo task = 3;
+    string message = 4;
+    repeated AvroRecord result= 5;
+}
+
+message NodeServerState {
+    map<string, TaskState> pipes = 1;
+    NodeServerResource total = 2;
+    NodeServerResource free = 3;
+    double load = 4;
+}
+
+message NodeUnregister {
+    repeated string taskIds = 1;
+}
+
+message NodeServerRegistered {
+    uint32 slots = 1;
+}
+
+message StopTask {
+    string id = 1;
+}
+message AvroRecord {
+    string schema = 1;
+    bytes record = 2;
+}
+
+message TaskComplete {
+    string id = 1;
+    TaskStatus status = 2;
+    string message = 3;
+    uint64 count = 4;
+    repeated AvroRecord result= 5;
+}
+
+message GetNodeServerStates {
+    bool all = 1;
+}
+

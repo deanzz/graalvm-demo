@@ -1,0 +1,46 @@
+syntax = "proto3";
+package graalvm.demo;
+
+import "google/protobuf/any.proto";
+
+message FilterParam {
+    repeated FieldFilterParam fieldFilters = 1;
+    ConditionRelationType relation = 2;
+}
+
+message FieldFilterParam {
+    string field = 1;
+    repeated Condition conditionList = 2;
+}
+
+message Condition {
+    ConditionType condition = 1;
+    repeated string values = 2;
+}
+
+enum ConditionRelationType {
+    AND = 0;
+    OR = 1;
+}
+
+enum ConditionType {
+    EQ = 0; // equal to
+    NE = 1; // not equal to
+    LT = 2; // less than
+    LET = 3; // less than or equal to
+    GT = 4; // greater than
+    GET = 5; // greater than or equal to
+    BT = 6; // between, inclusive
+    BT_NE_NE = 7; // lower <  $column <  upper
+    BT_EQ_NE = 8; // lower <= $column <  upper
+    BT_NE_EQ = 9; // lower <  $column <= upper
+    CON = 10; // contains
+    NCON = 11; // not contains
+    REG = 12; // regex
+    IN = 13; // whether the value is in a set
+}
+
+message FilterResult {
+    uint64 good = 1;
+    uint64 bad = 2;
+}

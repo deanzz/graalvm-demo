@@ -1,6 +1,6 @@
 package graalvm.demo
 
-import play.api.{ApplicationLoader, Configuration}
+import play.api.ApplicationLoader
 import play.api.inject.guice.{GuiceApplicationBuilder, GuiceApplicationLoader}
 
 class CustomApplicationLoader extends GuiceApplicationLoader {

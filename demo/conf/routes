@@ -1,4 +1,25 @@
 
 
 GET /   graalvm.demo.controllers.DemoController.index
-GET /ping/:s   graalvm.demo.controllers.DemoController.ping(s: String)
+
+GET /ping/:n                   graalvm.demo.controllers.DemoController.ping(n: Long)
+
+GET /filter/mongo/:keyword      graalvm.demo.controllers.DemoController.filter(keyword: String)
+
+GET /status                     graalvm.demo.controllers.DemoController.status
+
+GET /tasks/:id/result           graalvm.demo.controllers.DemoController.taskResult(id: String)
+
+POST /mongo/insert              graalvm.demo.controllers.DemoController.mongoInsert
+
+PUT /mongo/update/:id           graalvm.demo.controllers.DemoController.mongoUpdate(id: String)
+
+DELETE /mongo/delete/:id        graalvm.demo.controllers.DemoController.mongoDelete(id: String)
+
+POST /redis/insert              graalvm.demo.controllers.DemoController.redisInsert
+
+PUT /redis/update/:id           graalvm.demo.controllers.DemoController.redisUpdate(id: String)
+
+DELETE /redis/delete/:id        graalvm.demo.controllers.DemoController.redisDelete(id: String)
+
+
