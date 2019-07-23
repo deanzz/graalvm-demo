@@ -55,6 +55,21 @@ lazy val demo = (project in file("demo"))
   .settings(
     libraryDependencies ++= Seq(
       guice
+    ),
+    //mainClass in Compile := Some("play.core.server.ProdServerStart"),
+    graalVMNativeImageOptions ++= Seq(
+      //"-H:+ReportUnsupportedElementsAtRuntime",
+      "--report-unsupported-elements-at-runtime",
+      "-H:+ReportExceptionStackTraces",
+      "--verbose",
+      "--allow-incomplete-classpath",
+      "--initialize-at-build-time",
+      "--no-fallback",
+      "-H:ConfigurationFileDirectories=/Users/deanzhang/work/code/github/graalvm-demo/demo/conf/",
+      "-H:+PrintClassInitialization",
+      "-H:PrintFlags=+",
+      //"-H:Class=play.core.server.ProdServerStart"
+      //"--force-fallback"
     )
   )
 
@@ -66,12 +81,27 @@ lazy val node = (project in file("node"))
       "org.scaldi" %% "scaldi" % "0.5.8",
       "org.scaldi" %% "scaldi-akka" % "0.5.8"
     ),
+    //unmanagedResourceDirectories in Compile <+= resourceDirectory.value / "reflectConfig.json",
     mainClass in Compile := Some("graalvm.demo.node.NodeServer"),
     /*mappings in(Compile, packageBin) ~= { t =>
       t.filter(f => !(f._1.getName.endsWith(".conf") || f._1.getName.endsWith(".xml")))
     },*/
-    mappings in Universal ++= (resourceDirectory in Compile).value.listFiles().toSeq.map(f => (f, "conf/" + f.name)),
-    scriptClasspath := Seq("*", "../conf"),
+    //mappings in Universal ++= (resourceDirectory in Compile).value.listFiles().toSeq.map(f => (f, f.name)),
+    //scriptClasspath := Seq("*", "../conf"),
+    graalVMNativeImageOptions ++= Seq(
+      "--report-unsupported-elements-at-runtime",
+      //"-H:+ReportUnsupportedElementsAtRuntime",
+      "-H:+ReportExceptionStackTraces",
+      "--verbose",
+      "--allow-incomplete-classpath",
+      "--initialize-at-build-time",
+      "--no-fallback",
+      //"--static",
+      "-H:ConfigurationFileDirectories=/Users/deanzhang/work/code/github/graalvm-demo/node/src/main/resources/"
+      //"-H:ReflectionConfigurationFiles=reflectConfig.json"
+
+      //"--force-fallback"
+    )
   )
   .enablePlugins(JavaAppPackaging)
   .enablePlugins(UniversalPlugin)

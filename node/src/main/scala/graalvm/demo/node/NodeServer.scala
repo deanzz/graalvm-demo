@@ -18,6 +18,7 @@ import scala.io.StdIn
 
 object NodeServer {
 
+  // bin/node -agentlib:native-image-agent=config-output-dir=/Users/deanzhang/work/code/github/graalvm-demo/node/src/main/resources/
   def main(args: Array[String]): Unit ={
     implicit val injector: Module = new NodeModule()
     implicit val system = inject[ActorSystem]

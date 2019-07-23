@@ -9,6 +9,7 @@ import graalvm.demo.common.ClusterRole
 import graalvm.demo.node.actors.{MetricsListener, NodeLeader, NodeWorker}
 import scaldi.Module
 
+
 class NodeModule extends Module {
   val config = ConfigFactory.load()
   bind[Config] to config

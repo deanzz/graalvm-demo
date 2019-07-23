@@ -18,6 +18,7 @@ import play.api.mvc.{AbstractController, ControllerComponents}
 import scala.concurrent.Future
 import scala.concurrent.duration.DurationInt
 
+// bin/demo -agentlib:native-image-agent=config-output-dir=/Users/deanzhang/work/code/github/graalvm-demo/demo/conf/
 class DemoController @Inject()(configuration: Configuration,
                                @Named("ping-man") pingMan: ActorRef,
                                @Named("node-state-query") nodeStateQuery: ActorRef,
