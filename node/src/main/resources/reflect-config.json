@@ -1,0 +1,2407 @@
+[
+{
+  "name":"[B"
+},
+{
+  "name":"akka.actor.Actor"
+},
+{
+  "name":"akka.actor.ActorCell",
+  "allDeclaredFields":true
+},
+{
+  "name":"akka.actor.ActorIdentity"
+},
+{
+  "name":"akka.actor.ActorInitializationException"
+},
+{
+  "name":"akka.actor.ActorKilledException"
+},
+{
+  "name":"akka.actor.ActorLogging"
+},
+{
+  "name":"akka.actor.ActorRef"
+},
+{
+  "name":"akka.actor.ActorRefFactory"
+},
+{
+  "name":"akka.actor.ActorSelectionMessage"
+},
+{
+  "name":"akka.actor.ActorSystem"
+},
+{
+  "name":"akka.actor.DefaultSupervisorStrategy",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"akka.actor.Extension"
+},
+{
+  "name":"akka.actor.Identify"
+},
+{
+  "name":"akka.actor.IllegalActorStateException"
+},
+{
+  "name":"akka.actor.InvalidActorNameException"
+},
+{
+  "name":"akka.actor.InvalidMessageException"
+},
+{
+  "name":"akka.actor.Kill$"
+},
+{
+  "name":"akka.actor.LightArrayRevolverScheduler",
+  "methods":[{"name":"<init>","parameterTypes":["com.typesafe.config.Config","akka.event.LoggingAdapter","java.util.concurrent.ThreadFactory"] }]
+},
+{
+  "name":"akka.actor.LightArrayRevolverScheduler$TaskHolder",
+  "fields":[{"name":"task"}]
+},
+{
+  "name":"akka.actor.LocalActorRefProvider$Guardian",
+  "allDeclaredFields":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"akka.actor.LocalActorRefProvider$SystemGuardian",
+  "allDeclaredFields":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"akka.actor.LocalScope$"
+},
+{
+  "name":"akka.actor.PoisonPill$"
+},
+{
+  "name":"akka.actor.Props$EmptyActor",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"akka.actor.RepointableActorRef",
+  "fields":[
+    {"name":"_cellDoNotCallMeDirectly"}, 
+    {"name":"_lookupDoNotCallMeDirectly"}
+  ]
+},
+{
+  "name":"akka.actor.Status$Failure"
+},
+{
+  "name":"akka.actor.Status$Success"
+},
+{
+  "name":"akka.actor.package"
+},
+{
+  "name":"akka.annotation.InternalApi"
+},
+{
+  "name":"akka.cluster.ClusterActorRefProvider",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","akka.actor.ActorSystem$Settings","akka.event.EventStream","akka.actor.DynamicAccess"] }]
+},
+{
+  "name":"akka.cluster.ClusterCoreDaemon",
+  "allDeclaredFields":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"akka.cluster.ClusterCoreSupervisor",
+  "allDeclaredFields":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"akka.cluster.ClusterDaemon",
+  "allDeclaredFields":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"akka.cluster.ClusterDomainEventPublisher",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"akka.cluster.ClusterHeartbeatReceiver",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"akka.cluster.ClusterHeartbeatSender",
+  "allDeclaredFields":true
+},
+{
+  "name":"akka.cluster.ClusterMessage"
+},
+{
+  "name":"akka.cluster.ClusterReadView$$anon$1",
+  "allDeclaredFields":true
+},
+{
+  "name":"akka.cluster.ClusterRemoteWatcher",
+  "allDeclaredFields":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"akka.cluster.CoordinatedShutdownLeave",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"akka.cluster.CrossDcHeartbeatSender",
+  "allDeclaredFields":true
+},
+{
+  "name":"akka.cluster.JoinConfigCompatCheckCluster",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"akka.cluster.JoinSeedNodeProcess",
+  "allDeclaredFields":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"akka.cluster.NoDowning",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ActorSystem"] }]
+},
+{
+  "name":"akka.cluster.OnMemberStatusChangedListener",
+  "allDeclaredFields":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"akka.cluster.client.ClusterClientMessage"
+},
+{
+  "name":"akka.cluster.client.protobuf.ClusterClientMessageSerializer",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.cluster.ddata.ReplicatedDataSerialization"
+},
+{
+  "name":"akka.cluster.ddata.Replicator$ReplicatorMessage"
+},
+{
+  "name":"akka.cluster.ddata.protobuf.ReplicatedDataSerializer",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.cluster.ddata.protobuf.ReplicatorMessageSerializer",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.cluster.metrics.AdaptiveLoadBalancingPool"
+},
+{
+  "name":"akka.cluster.metrics.ClusterMetricsCollector",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"akka.cluster.metrics.ClusterMetricsExtension$",
+  "fields":[{"name":"MODULE$"}]
+},
+{
+  "name":"akka.cluster.metrics.ClusterMetricsMessage"
+},
+{
+  "name":"akka.cluster.metrics.ClusterMetricsStrategy",
+  "methods":[{"name":"<init>","parameterTypes":["com.typesafe.config.Config"] }]
+},
+{
+  "name":"akka.cluster.metrics.ClusterMetricsSupervisor",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"akka.cluster.metrics.CpuMetricsSelector$"
+},
+{
+  "name":"akka.cluster.metrics.HeapMetricsSelector$"
+},
+{
+  "name":"akka.cluster.metrics.MixMetricsSelector"
+},
+{
+  "name":"akka.cluster.metrics.SigarMetricsCollector",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ActorSystem"] }]
+},
+{
+  "name":"akka.cluster.metrics.SystemLoadAverageMetricsSelector$"
+},
+{
+  "name":"akka.cluster.metrics.protobuf.MessageSerializer",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.cluster.metrics.protobuf.msg.ClusterMetricsMessages$NodeMetrics$EWMA",
+  "methods":[
+    {"name":"getAlpha","parameterTypes":[] }, 
+    {"name":"getValue","parameterTypes":[] }, 
+    {"name":"hasAlpha","parameterTypes":[] }, 
+    {"name":"hasValue","parameterTypes":[] }, 
+    {"name":"newBuilder","parameterTypes":[] }
+  ]
+},
+{
+  "name":"akka.cluster.metrics.protobuf.msg.ClusterMetricsMessages$NodeMetrics$EWMA$Builder",
+  "methods":[
+    {"name":"clearAlpha","parameterTypes":[] }, 
+    {"name":"clearValue","parameterTypes":[] }, 
+    {"name":"getAlpha","parameterTypes":[] }, 
+    {"name":"getValue","parameterTypes":[] }, 
+    {"name":"hasAlpha","parameterTypes":[] }, 
+    {"name":"hasValue","parameterTypes":[] }, 
+    {"name":"setAlpha","parameterTypes":["double"] }, 
+    {"name":"setValue","parameterTypes":["double"] }
+  ]
+},
+{
+  "name":"akka.cluster.metrics.protobuf.msg.ClusterMetricsMessages$NodeMetrics$Metric",
+  "methods":[
+    {"name":"getEwma","parameterTypes":[] }, 
+    {"name":"getNameIndex","parameterTypes":[] }, 
+    {"name":"getNumber","parameterTypes":[] }, 
+    {"name":"hasEwma","parameterTypes":[] }, 
+    {"name":"hasNameIndex","parameterTypes":[] }, 
+    {"name":"hasNumber","parameterTypes":[] }
+  ]
+},
+{
+  "name":"akka.cluster.metrics.protobuf.msg.ClusterMetricsMessages$NodeMetrics$Metric$Builder",
+  "methods":[
+    {"name":"clearEwma","parameterTypes":[] }, 
+    {"name":"clearNameIndex","parameterTypes":[] }, 
+    {"name":"clearNumber","parameterTypes":[] }, 
+    {"name":"getEwma","parameterTypes":[] }, 
+    {"name":"getEwmaBuilder","parameterTypes":[] }, 
+    {"name":"getNameIndex","parameterTypes":[] }, 
+    {"name":"getNumber","parameterTypes":[] }, 
+    {"name":"getNumberBuilder","parameterTypes":[] }, 
+    {"name":"hasEwma","parameterTypes":[] }, 
+    {"name":"hasNameIndex","parameterTypes":[] }, 
+    {"name":"hasNumber","parameterTypes":[] }, 
+    {"name":"setEwma","parameterTypes":["akka.cluster.metrics.protobuf.msg.ClusterMetricsMessages$NodeMetrics$EWMA"] }, 
+    {"name":"setNameIndex","parameterTypes":["int"] }, 
+    {"name":"setNumber","parameterTypes":["akka.cluster.metrics.protobuf.msg.ClusterMetricsMessages$NodeMetrics$Number"] }
+  ]
+},
+{
+  "name":"akka.cluster.metrics.protobuf.msg.ClusterMetricsMessages$NodeMetrics$Number",
+  "methods":[
+    {"name":"getSerialized","parameterTypes":[] }, 
+    {"name":"getType","parameterTypes":[] }, 
+    {"name":"getValue32","parameterTypes":[] }, 
+    {"name":"getValue64","parameterTypes":[] }, 
+    {"name":"hasSerialized","parameterTypes":[] }, 
+    {"name":"hasType","parameterTypes":[] }, 
+    {"name":"hasValue32","parameterTypes":[] }, 
+    {"name":"hasValue64","parameterTypes":[] }, 
+    {"name":"newBuilder","parameterTypes":[] }
+  ]
+},
+{
+  "name":"akka.cluster.metrics.protobuf.msg.ClusterMetricsMessages$NodeMetrics$Number$Builder",
+  "methods":[
+    {"name":"clearSerialized","parameterTypes":[] }, 
+    {"name":"clearType","parameterTypes":[] }, 
+    {"name":"clearValue32","parameterTypes":[] }, 
+    {"name":"clearValue64","parameterTypes":[] }, 
+    {"name":"getSerialized","parameterTypes":[] }, 
+    {"name":"getType","parameterTypes":[] }, 
+    {"name":"getValue32","parameterTypes":[] }, 
+    {"name":"getValue64","parameterTypes":[] }, 
+    {"name":"hasSerialized","parameterTypes":[] }, 
+    {"name":"hasType","parameterTypes":[] }, 
+    {"name":"hasValue32","parameterTypes":[] }, 
+    {"name":"hasValue64","parameterTypes":[] }, 
+    {"name":"setSerialized","parameterTypes":["akka.protobuf.ByteString"] }, 
+    {"name":"setType","parameterTypes":["akka.cluster.metrics.protobuf.msg.ClusterMetricsMessages$NodeMetrics$NumberType"] }, 
+    {"name":"setValue32","parameterTypes":["int"] }, 
+    {"name":"setValue64","parameterTypes":["long"] }
+  ]
+},
+{
+  "name":"akka.cluster.metrics.protobuf.msg.ClusterMetricsMessages$NodeMetrics$NumberType",
+  "methods":[
+    {"name":"getValueDescriptor","parameterTypes":[] }, 
+    {"name":"valueOf","parameterTypes":["akka.protobuf.Descriptors$EnumValueDescriptor"] }
+  ]
+},
+{
+  "name":"akka.cluster.protobuf.ClusterMessageSerializer",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.cluster.protobuf.msg.ClusterMessages$Member",
+  "methods":[
+    {"name":"getAddressIndex","parameterTypes":[] }, 
+    {"name":"getRolesIndexes","parameterTypes":["int"] }, 
+    {"name":"getRolesIndexesCount","parameterTypes":[] }, 
+    {"name":"getRolesIndexesList","parameterTypes":[] }, 
+    {"name":"getStatus","parameterTypes":[] }, 
+    {"name":"getUpNumber","parameterTypes":[] }, 
+    {"name":"hasAddressIndex","parameterTypes":[] }, 
+    {"name":"hasStatus","parameterTypes":[] }, 
+    {"name":"hasUpNumber","parameterTypes":[] }
+  ]
+},
+{
+  "name":"akka.cluster.protobuf.msg.ClusterMessages$Member$Builder",
+  "methods":[
+    {"name":"addRolesIndexes","parameterTypes":["int"] }, 
+    {"name":"clearAddressIndex","parameterTypes":[] }, 
+    {"name":"clearRolesIndexes","parameterTypes":[] }, 
+    {"name":"clearStatus","parameterTypes":[] }, 
+    {"name":"clearUpNumber","parameterTypes":[] }, 
+    {"name":"getAddressIndex","parameterTypes":[] }, 
+    {"name":"getRolesIndexes","parameterTypes":["int"] }, 
+    {"name":"getRolesIndexesCount","parameterTypes":[] }, 
+    {"name":"getRolesIndexesList","parameterTypes":[] }, 
+    {"name":"getStatus","parameterTypes":[] }, 
+    {"name":"getUpNumber","parameterTypes":[] }, 
+    {"name":"hasAddressIndex","parameterTypes":[] }, 
+    {"name":"hasStatus","parameterTypes":[] }, 
+    {"name":"hasUpNumber","parameterTypes":[] }, 
+    {"name":"setAddressIndex","parameterTypes":["int"] }, 
+    {"name":"setRolesIndexes","parameterTypes":["int","int"] }, 
+    {"name":"setStatus","parameterTypes":["akka.cluster.protobuf.msg.ClusterMessages$MemberStatus"] }, 
+    {"name":"setUpNumber","parameterTypes":["int"] }
+  ]
+},
+{
+  "name":"akka.cluster.protobuf.msg.ClusterMessages$MemberStatus",
+  "methods":[
+    {"name":"getValueDescriptor","parameterTypes":[] }, 
+    {"name":"valueOf","parameterTypes":["akka.protobuf.Descriptors$EnumValueDescriptor"] }
+  ]
+},
+{
+  "name":"akka.cluster.pubsub.DistributedPubSubMediator$Internal$SendToOneSubscriber"
+},
+{
+  "name":"akka.cluster.pubsub.DistributedPubSubMessage"
+},
+{
+  "name":"akka.cluster.pubsub.protobuf.DistributedPubSubMessageSerializer",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.cluster.routing.ClusterRouterGroupActor",
+  "allDeclaredFields":true
+},
+{
+  "name":"akka.cluster.routing.ClusterRouterPool"
+},
+{
+  "name":"akka.cluster.sharding.ClusterShardingSerializable"
+},
+{
+  "name":"akka.cluster.sharding.JoinConfigCompatCheckSharding",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"akka.cluster.sharding.protobuf.ClusterShardingMessageSerializer",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.cluster.singleton.ClusterSingletonMessage"
+},
+{
+  "name":"akka.cluster.singleton.ClusterSingletonProxy",
+  "allDeclaredFields":true
+},
+{
+  "name":"akka.cluster.singleton.protobuf.ClusterSingletonMessageSerializer",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.discovery.config.ConfigServiceDiscovery",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.dispatch.AbstractNodeQueue",
+  "fields":[{"name":"_tailDoNotCallMeDirectly"}]
+},
+{
+  "name":"akka.dispatch.AbstractNodeQueue$Node",
+  "fields":[{"name":"_nextDoNotCallMeDirectly"}]
+},
+{
+  "name":"akka.dispatch.BoundedControlAwareMessageQueueSemantics"
+},
+{
+  "name":"akka.dispatch.BoundedDequeBasedMessageQueueSemantics"
+},
+{
+  "name":"akka.dispatch.BoundedMessageQueueSemantics"
+},
+{
+  "name":"akka.dispatch.ControlAwareMessageQueueSemantics"
+},
+{
+  "name":"akka.dispatch.DequeBasedMessageQueueSemantics"
+},
+{
+  "name":"akka.dispatch.Mailbox",
+  "fields":[
+    {"name":"_statusDoNotCallMeDirectly"}, 
+    {"name":"_systemQueueDoNotCallMeDirectly"}
+  ]
+},
+{
+  "name":"akka.dispatch.MessageDispatcher",
+  "fields":[
+    {"name":"_inhabitantsDoNotCallMeDirectly"}, 
+    {"name":"_shutdownScheduleDoNotCallMeDirectly"}
+  ]
+},
+{
+  "name":"akka.dispatch.MultipleConsumerSemantics"
+},
+{
+  "name":"akka.dispatch.UnboundedControlAwareMessageQueueSemantics"
+},
+{
+  "name":"akka.dispatch.UnboundedDequeBasedMessageQueueSemantics"
+},
+{
+  "name":"akka.dispatch.UnboundedMailbox",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ActorSystem$Settings","com.typesafe.config.Config"] }]
+},
+{
+  "name":"akka.dispatch.UnboundedMessageQueueSemantics"
+},
+{
+  "name":"akka.dispatch.forkjoin.ForkJoinPool",
+  "fields":[
+    {"name":"ctl"}, 
+    {"name":"indexSeed"}, 
+    {"name":"plock"}, 
+    {"name":"stealCount"}
+  ]
+},
+{
+  "name":"akka.dispatch.forkjoin.ForkJoinPool$WorkQueue",
+  "fields":[{"name":"qlock"}]
+},
+{
+  "name":"akka.dispatch.forkjoin.ForkJoinTask",
+  "fields":[{"name":"status"}]
+},
+{
+  "name":"akka.dispatch.sysmsg.SystemMessage"
+},
+{
+  "name":"akka.event.DeadLetterListener",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"akka.event.EventStreamUnsubscriber",
+  "allDeclaredFields":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"akka.event.LoggerMailboxType",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ActorSystem$Settings","com.typesafe.config.Config"] }]
+},
+{
+  "name":"akka.event.LoggerMessageQueueSemantics"
+},
+{
+  "name":"akka.event.slf4j.Slf4jLogger",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"akka.event.slf4j.Slf4jLoggingFilter",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ActorSystem$Settings","akka.event.EventStream"] }]
+},
+{
+  "name":"akka.http.impl.engine.client.PoolInterfaceActor",
+  "allDeclaredFields":true
+},
+{
+  "name":"akka.http.impl.engine.client.PoolMasterActor",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"akka.io.InetAddressDnsProvider",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"akka.io.InetAddressDnsResolver",
+  "allDeclaredFields":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"akka.io.SelectionHandler",
+  "allDeclaredFields":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"akka.io.SelectionHandler$SelectorBasedManager",
+  "allDeclaredFields":true
+},
+{
+  "name":"akka.io.SimpleDnsManager",
+  "allDeclaredFields":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"akka.io.TcpConnection",
+  "allDeclaredFields":true
+},
+{
+  "name":"akka.io.TcpListener",
+  "allDeclaredFields":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"akka.io.TcpManager",
+  "allDeclaredFields":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"akka.io.TcpOutgoingConnection",
+  "allDeclaredFields":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"akka.management.HealthCheckRoutes",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.management.cluster.ClusterHttpManagementMessage",
+  "allDeclaredFields":true,
+  "allPublicMethods":true
+},
+{
+  "name":"akka.management.cluster.ClusterHttpManagementRouteProvider$",
+  "fields":[{"name":"MODULE$"}]
+},
+{
+  "name":"akka.management.cluster.ClusterMember",
+  "allDeclaredFields":true,
+  "allPublicMethods":true
+},
+{
+  "name":"akka.management.cluster.ClusterMembers",
+  "allDeclaredFields":true,
+  "allPublicMethods":true
+},
+{
+  "name":"akka.management.cluster.ClusterUnreachableMember",
+  "allDeclaredFields":true,
+  "allPublicMethods":true
+},
+{
+  "name":"akka.management.cluster.ShardDetails",
+  "allDeclaredFields":true,
+  "allPublicMethods":true
+},
+{
+  "name":"akka.management.cluster.ShardRegionInfo",
+  "allDeclaredFields":true,
+  "allPublicMethods":true
+},
+{
+  "name":"akka.management.cluster.bootstrap.ClusterBootstrap"
+},
+{
+  "name":"akka.management.cluster.bootstrap.ClusterBootstrap$",
+  "fields":[{"name":"MODULE$"}]
+},
+{
+  "name":"akka.management.cluster.bootstrap.LowestAddressJoinDecider",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ActorSystem","akka.management.cluster.bootstrap.ClusterBootstrapSettings"] }]
+},
+{
+  "name":"akka.management.cluster.bootstrap.contactpoint.HttpBootstrapJsonProtocol$ClusterMember",
+  "allDeclaredFields":true,
+  "allPublicMethods":true
+},
+{
+  "name":"akka.management.cluster.bootstrap.contactpoint.HttpBootstrapJsonProtocol$SeedNode",
+  "allDeclaredFields":true,
+  "allPublicMethods":true
+},
+{
+  "name":"akka.management.cluster.bootstrap.contactpoint.HttpBootstrapJsonProtocol$SeedNodes",
+  "allDeclaredFields":true,
+  "allPublicMethods":true
+},
+{
+  "name":"akka.management.cluster.bootstrap.internal.BootstrapCoordinator",
+  "allDeclaredFields":true
+},
+{
+  "name":"akka.management.cluster.bootstrap.internal.HttpContactPointBootstrap",
+  "allDeclaredFields":true
+},
+{
+  "name":"akka.management.cluster.scaladsl.ClusterMembershipCheck",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ActorSystem"] }]
+},
+{
+  "name":"akka.management.scaladsl.AkkaManagement"
+},
+{
+  "name":"akka.management.scaladsl.ManagementRouteProvider"
+},
+{
+  "name":"akka.pattern.PromiseActorRef",
+  "fields":[
+    {"name":"_stateDoNotCallMeDirectly"}, 
+    {"name":"_watchedByDoNotCallMeDirectly"}
+  ]
+},
+{
+  "name":"akka.persistence.serialization.Message"
+},
+{
+  "name":"akka.persistence.serialization.MessageSerializer",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.persistence.serialization.Snapshot"
+},
+{
+  "name":"akka.persistence.serialization.SnapshotSerializer",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.protobuf.GeneratedMessage"
+},
+{
+  "name":"akka.remote.DaemonMsgCreate"
+},
+{
+  "name":"akka.remote.DeadlineFailureDetector",
+  "methods":[{"name":"<init>","parameterTypes":["com.typesafe.config.Config","akka.event.EventStream"] }]
+},
+{
+  "name":"akka.remote.EndpointActor",
+  "allDeclaredFields":true
+},
+{
+  "name":"akka.remote.EndpointManager",
+  "allDeclaredFields":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"akka.remote.EndpointReader",
+  "allDeclaredFields":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"akka.remote.EndpointWriter",
+  "allDeclaredFields":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"akka.remote.PhiAccrualFailureDetector",
+  "methods":[{"name":"<init>","parameterTypes":["com.typesafe.config.Config","akka.event.EventStream"] }]
+},
+{
+  "name":"akka.remote.ReliableDeliverySupervisor",
+  "allDeclaredFields":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"akka.remote.RemoteActorRefProvider$RemotingTerminator",
+  "allDeclaredFields":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"akka.remote.RemoteDeploymentWatcher",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"akka.remote.RemoteScope"
+},
+{
+  "name":"akka.remote.RemoteWatcher",
+  "allDeclaredFields":true
+},
+{
+  "name":"akka.remote.RemoteWatcher$Heartbeat$"
+},
+{
+  "name":"akka.remote.RemoteWatcher$HeartbeatRsp"
+},
+{
+  "name":"akka.remote.Remoting$TransportSupervisor",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"akka.remote.artery.ArteryMessage"
+},
+{
+  "name":"akka.remote.routing.RemoteRouterConfig"
+},
+{
+  "name":"akka.remote.serialization.ArteryMessageSerializer",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.remote.serialization.ByteStringSerializer",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.remote.serialization.DaemonMsgCreateSerializer",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.remote.serialization.IntSerializer",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.remote.serialization.LongSerializer",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.remote.serialization.MessageContainerSerializer",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.remote.serialization.MiscMessageSerializer",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.remote.serialization.ProtobufSerializer",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.remote.serialization.StringSerializer",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.remote.serialization.SystemMessageSerializer",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.remote.transport.ActorTransportAdapterManager",
+  "allDeclaredFields":true
+},
+{
+  "name":"akka.remote.transport.AkkaProtocolManager",
+  "allDeclaredFields":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"akka.remote.transport.FailureInjectorProvider",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"akka.remote.transport.ProtocolStateActor",
+  "allDeclaredFields":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"akka.remote.transport.ThrottlerProvider",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"akka.remote.transport.netty.NettyTransport",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem","com.typesafe.config.Config"] }]
+},
+{
+  "name":"akka.routing.BalancingPool"
+},
+{
+  "name":"akka.routing.BroadcastGroup"
+},
+{
+  "name":"akka.routing.BroadcastPool"
+},
+{
+  "name":"akka.routing.ConsistentHashingPool",
+  "methods":[{"name":"<init>","parameterTypes":["com.typesafe.config.Config"] }]
+},
+{
+  "name":"akka.routing.DefaultResizer"
+},
+{
+  "name":"akka.routing.FromConfig"
+},
+{
+  "name":"akka.routing.RandomGroup"
+},
+{
+  "name":"akka.routing.RandomPool"
+},
+{
+  "name":"akka.routing.RoundRobinGroup",
+  "methods":[{"name":"<init>","parameterTypes":["com.typesafe.config.Config"] }]
+},
+{
+  "name":"akka.routing.RoundRobinPool",
+  "methods":[{"name":"<init>","parameterTypes":["com.typesafe.config.Config"] }]
+},
+{
+  "name":"akka.routing.RoutedActorCell$RouterActorCreator",
+  "allDeclaredConstructors":true
+},
+{
+  "name":"akka.routing.RouterActor",
+  "allDeclaredFields":true
+},
+{
+  "name":"akka.routing.RouterPoolActor",
+  "allDeclaredFields":true
+},
+{
+  "name":"akka.routing.ScatterGatherFirstCompletedGroup"
+},
+{
+  "name":"akka.routing.ScatterGatherFirstCompletedPool"
+},
+{
+  "name":"akka.routing.SmallestMailboxPool"
+},
+{
+  "name":"akka.routing.TailChoppingGroup"
+},
+{
+  "name":"akka.routing.TailChoppingPool"
+},
+{
+  "name":"akka.serialization.ByteArraySerializer",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.serialization.JavaSerializer",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.serialization.SerializationExtension$",
+  "fields":[{"name":"MODULE$"}]
+},
+{
+  "name":"akka.stream.ActorMaterializer"
+},
+{
+  "name":"akka.stream.SinkRef"
+},
+{
+  "name":"akka.stream.SourceRef"
+},
+{
+  "name":"akka.stream.impl.ActorProcessorImpl",
+  "allDeclaredFields":true
+},
+{
+  "name":"akka.stream.impl.FanoutProcessorImpl",
+  "allDeclaredFields":true
+},
+{
+  "name":"akka.stream.impl.StreamSupervisor",
+  "allDeclaredFields":true
+},
+{
+  "name":"akka.stream.impl.fusing.ActorGraphInterpreter",
+  "allDeclaredFields":true
+},
+{
+  "name":"akka.stream.impl.streamref.StreamRefsProtocol"
+},
+{
+  "name":"akka.stream.serialization.StreamRefSerializer",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.util.ByteString$ByteString1"
+},
+{
+  "name":"akka.util.ByteString$ByteString1C"
+},
+{
+  "name":"akka.util.ByteString$ByteStrings"
+},
+{
+  "name":"akka.util.unused"
+},
+{
+  "name":"com.google.protobuf.GeneratedMessage"
+},
+{
+  "name":"com.mongodb.WriteConcern",
+  "allPublicFields":true
+},
+{
+  "name":"com.typesafe.config.Config"
+},
+{
+  "name":"com.typesafe.config.impl.SimpleConfig"
+},
+{
+  "name":"com.typesafe.sslconfig.ssl.DefaultHostnameVerifier",
+  "methods":[{"name":"<init>","parameterTypes":["com.typesafe.sslconfig.util.LoggerFactory"] }]
+},
+{
+  "name":"graalvm.demo.common.ClusterRole$",
+  "allDeclaredFields":true,
+  "allPublicMethods":true
+},
+{
+  "name":"graalvm.demo.common.ScalaProtobufSerializer",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"graalvm.demo.node.NodeServerRegistered"
+},
+{
+  "name":"graalvm.demo.node.NodeServerRegistered$",
+  "fields":[{"name":"MODULE$"}]
+},
+{
+  "name":"graalvm.demo.node.TaskInfo"
+},
+{
+  "name":"graalvm.demo.node.TaskInfo$",
+  "fields":[{"name":"MODULE$"}]
+},
+{
+  "name":"graalvm.demo.node.actors.MetricsListener",
+  "allDeclaredFields":true
+},
+{
+  "name":"graalvm.demo.node.actors.NodeLeader",
+  "allDeclaredFields":true
+},
+{
+  "name":"graalvm.demo.node.actors.NodeWorker",
+  "allDeclaredFields":true
+},
+{
+  "name":"java.io.IOException"
+},
+{
+  "name":"java.io.ObjectInputStream"
+},
+{
+  "name":"java.io.ObjectOutputStream"
+},
+{
+  "name":"java.io.ObjectStreamException"
+},
+{
+  "name":"java.io.ObjectStreamField"
+},
+{
+  "name":"java.io.PrintStream"
+},
+{
+  "name":"java.io.PrintWriter"
+},
+{
+  "name":"java.io.Serializable",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicConstructors":true
+},
+{
+  "name":"java.io.UnsupportedEncodingException"
+},
+{
+  "name":"java.lang.AbstractStringBuilder"
+},
+{
+  "name":"java.lang.Boolean"
+},
+{
+  "name":"java.lang.Byte"
+},
+{
+  "name":"java.lang.CharSequence"
+},
+{
+  "name":"java.lang.Character"
+},
+{
+  "name":"java.lang.Class"
+},
+{
+  "name":"java.lang.ClassCastException"
+},
+{
+  "name":"java.lang.ClassLoader",
+  "fields":[{"name":"loadedLibraryNames"}]
+},
+{
+  "name":"java.lang.ClassNotFoundException"
+},
+{
+  "name":"java.lang.CloneNotSupportedException"
+},
+{
+  "name":"java.lang.Cloneable",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicConstructors":true
+},
+{
+  "name":"java.lang.Comparable",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicConstructors":true
+},
+{
+  "name":"java.lang.Deprecated"
+},
+{
+  "name":"java.lang.Double"
+},
+{
+  "name":"java.lang.Enum"
+},
+{
+  "name":"java.lang.Exception",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicConstructors":true
+},
+{
+  "name":"java.lang.Float"
+},
+{
+  "name":"java.lang.FunctionalInterface"
+},
+{
+  "name":"java.lang.IllegalArgumentException"
+},
+{
+  "name":"java.lang.IndexOutOfBoundsException"
+},
+{
+  "name":"java.lang.Integer"
+},
+{
+  "name":"java.lang.InterruptedException"
+},
+{
+  "name":"java.lang.Iterable",
+  "allDeclaredMethods":true
+},
+{
+  "name":"java.lang.Long"
+},
+{
+  "name":"java.lang.NullPointerException"
+},
+{
+  "name":"java.lang.Number"
+},
+{
+  "name":"java.lang.Object",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicConstructors":true
+},
+{
+  "name":"java.lang.RuntimeException",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicConstructors":true
+},
+{
+  "name":"java.lang.Short"
+},
+{
+  "name":"java.lang.StackTraceElement"
+},
+{
+  "name":"java.lang.String",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicConstructors":true
+},
+{
+  "name":"java.lang.StringBuffer"
+},
+{
+  "name":"java.lang.StringBuilder"
+},
+{
+  "name":"java.lang.Thread",
+  "fields":[{"name":"parkBlocker"}]
+},
+{
+  "name":"java.lang.Throwable",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicConstructors":true
+},
+{
+  "name":"java.lang.annotation.Repeatable"
+},
+{
+  "name":"java.lang.annotation.Retention"
+},
+{
+  "name":"java.lang.annotation.RetentionPolicy"
+},
+{
+  "name":"java.lang.invoke.MethodHandle"
+},
+{
+  "name":"java.lang.ref.SoftReference"
+},
+{
+  "name":"java.lang.reflect.InvocationTargetException"
+},
+{
+  "name":"java.lang.reflect.Method"
+},
+{
+  "name":"java.nio.Buffer",
+  "fields":[{"name":"address"}]
+},
+{
+  "name":"java.nio.DirectByteBuffer",
+  "methods":[{"name":"cleaner","parameterTypes":[] }]
+},
+{
+  "name":"java.nio.charset.Charset"
+},
+{
+  "name":"java.rmi.Remote"
+},
+{
+  "name":"java.rmi.RemoteException"
+},
+{
+  "name":"java.time.Instant"
+},
+{
+  "name":"java.util.Comparator"
+},
+{
+  "name":"java.util.HashMap"
+},
+{
+  "name":"java.util.List"
+},
+{
+  "name":"java.util.Locale"
+},
+{
+  "name":"java.util.Map"
+},
+{
+  "name":"java.util.Optional"
+},
+{
+  "name":"java.util.Set"
+},
+{
+  "name":"java.util.concurrent.ConcurrentNavigableMap"
+},
+{
+  "name":"java.util.concurrent.ConcurrentSkipListMap"
+},
+{
+  "name":"java.util.concurrent.LinkedTransferQueue"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.ConsoleAppender",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.ConsoleAppender$Builder",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.RollingFileAppender",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.TimeBasedTriggeringPolicy",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.apache.logging.log4j.core.config.AppenderRef",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.apache.logging.log4j.core.config.AppendersPlugin",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.apache.logging.log4j.core.config.LoggerConfig",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.apache.logging.log4j.core.config.LoggerConfig$RootLogger",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.apache.logging.log4j.core.config.LoggersPlugin",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.apache.logging.log4j.core.config.json.JsonConfigurationFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$BigDecimalConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$BigIntegerConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$BooleanConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$ByteArrayConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$ByteConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$CharArrayConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$CharacterConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$CharsetConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$ClassConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$DoubleConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$FileConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$FloatConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$IntegerConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$LevelConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$LongConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$PatternConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$SecurityProviderConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$ShortConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$StringConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$UriConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$UrlConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.validation.validators.RequiredValidator",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.visitors.PluginAttributeVisitor",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.visitors.PluginBuilderAttributeVisitor",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.visitors.PluginConfigurationVisitor",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.visitors.PluginElementVisitor",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.properties.PropertiesConfigurationFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.xml.XmlConfigurationFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.yaml.YamlConfigurationFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.filter.ThresholdFilter",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.apache.logging.log4j.core.impl.Log4jContextFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.layout.PatternLayout",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.apache.logging.log4j.core.layout.PatternLayout$Builder",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.ContextMapLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.DateLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.EnvironmentLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.JavaLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.JmxRuntimeInputArgumentsLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.JndiLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.Log4jLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.MainMapLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.MapLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.MarkerLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.ResourceBundleLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.StructuredDataLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.SystemPropertiesLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.DatePatternConverter",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.FileDatePatternConverter",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.FullLocationPatternConverter",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.IntegerPatternConverter",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.LevelPatternConverter",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.LineSeparatorPatternConverter",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.LoggerPatternConverter",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.MessagePatternConverter",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.ThreadPatternConverter",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.apache.logging.log4j.message.ParameterizedMessageFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.codehaus.jackson.JsonNode",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.codehaus.jackson.map.JsonSerializable",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.codehaus.jackson.map.JsonSerializableWithType",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.codehaus.jackson.node.BaseJsonNode",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.codehaus.jackson.node.NullNode",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"org.codehaus.jackson.node.ValueNode",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.hyperic.sigar.Sigar"
+},
+{
+  "name":"org.slf4j.Logger"
+},
+{
+  "name":"scala.AnyVal"
+},
+{
+  "name":"scala.Array"
+},
+{
+  "name":"scala.Boolean"
+},
+{
+  "name":"scala.Byte"
+},
+{
+  "name":"scala.Char"
+},
+{
+  "name":"scala.DelayedInit"
+},
+{
+  "name":"scala.DeprecatedPredef"
+},
+{
+  "name":"scala.Double"
+},
+{
+  "name":"scala.Dynamic"
+},
+{
+  "name":"scala.Enumeration$Val",
+  "methods":[{"name":"id","parameterTypes":[] }]
+},
+{
+  "name":"scala.Equals"
+},
+{
+  "name":"scala.FallbackArrayBuilding"
+},
+{
+  "name":"scala.Float"
+},
+{
+  "name":"scala.Function0"
+},
+{
+  "name":"scala.Function1"
+},
+{
+  "name":"scala.Function10"
+},
+{
+  "name":"scala.Function11"
+},
+{
+  "name":"scala.Function12"
+},
+{
+  "name":"scala.Function13"
+},
+{
+  "name":"scala.Function14"
+},
+{
+  "name":"scala.Function15"
+},
+{
+  "name":"scala.Function16"
+},
+{
+  "name":"scala.Function17"
+},
+{
+  "name":"scala.Function18"
+},
+{
+  "name":"scala.Function19"
+},
+{
+  "name":"scala.Function2"
+},
+{
+  "name":"scala.Function20"
+},
+{
+  "name":"scala.Function21"
+},
+{
+  "name":"scala.Function22"
+},
+{
+  "name":"scala.Function3"
+},
+{
+  "name":"scala.Function4"
+},
+{
+  "name":"scala.Function5"
+},
+{
+  "name":"scala.Function6"
+},
+{
+  "name":"scala.Function7"
+},
+{
+  "name":"scala.Function8"
+},
+{
+  "name":"scala.Function9"
+},
+{
+  "name":"scala.Int"
+},
+{
+  "name":"scala.Long"
+},
+{
+  "name":"scala.LowPriorityImplicits"
+},
+{
+  "name":"scala.MatchError"
+},
+{
+  "name":"scala.None"
+},
+{
+  "name":"scala.None$"
+},
+{
+  "name":"scala.Option"
+},
+{
+  "name":"scala.PartialFunction"
+},
+{
+  "name":"scala.Predef"
+},
+{
+  "name":"scala.Product"
+},
+{
+  "name":"scala.Product1"
+},
+{
+  "name":"scala.Product10"
+},
+{
+  "name":"scala.Product11"
+},
+{
+  "name":"scala.Product12"
+},
+{
+  "name":"scala.Product13"
+},
+{
+  "name":"scala.Product14"
+},
+{
+  "name":"scala.Product15"
+},
+{
+  "name":"scala.Product16"
+},
+{
+  "name":"scala.Product17"
+},
+{
+  "name":"scala.Product18"
+},
+{
+  "name":"scala.Product19"
+},
+{
+  "name":"scala.Product2"
+},
+{
+  "name":"scala.Product20"
+},
+{
+  "name":"scala.Product21"
+},
+{
+  "name":"scala.Product22"
+},
+{
+  "name":"scala.Product3"
+},
+{
+  "name":"scala.Product4"
+},
+{
+  "name":"scala.Product5"
+},
+{
+  "name":"scala.Product6"
+},
+{
+  "name":"scala.Product7"
+},
+{
+  "name":"scala.Product8"
+},
+{
+  "name":"scala.Product9"
+},
+{
+  "name":"scala.SerialVersionUID"
+},
+{
+  "name":"scala.Serializable"
+},
+{
+  "name":"scala.Short"
+},
+{
+  "name":"scala.Some"
+},
+{
+  "name":"scala.Specializable"
+},
+{
+  "name":"scala.StringContext"
+},
+{
+  "name":"scala.Symbol"
+},
+{
+  "name":"scala.Tuple1"
+},
+{
+  "name":"scala.Tuple10"
+},
+{
+  "name":"scala.Tuple11"
+},
+{
+  "name":"scala.Tuple12"
+},
+{
+  "name":"scala.Tuple13"
+},
+{
+  "name":"scala.Tuple14"
+},
+{
+  "name":"scala.Tuple15"
+},
+{
+  "name":"scala.Tuple16"
+},
+{
+  "name":"scala.Tuple17"
+},
+{
+  "name":"scala.Tuple18"
+},
+{
+  "name":"scala.Tuple19"
+},
+{
+  "name":"scala.Tuple2"
+},
+{
+  "name":"scala.Tuple20"
+},
+{
+  "name":"scala.Tuple21"
+},
+{
+  "name":"scala.Tuple22"
+},
+{
+  "name":"scala.Tuple3"
+},
+{
+  "name":"scala.Tuple4"
+},
+{
+  "name":"scala.Tuple5"
+},
+{
+  "name":"scala.Tuple6"
+},
+{
+  "name":"scala.Tuple7"
+},
+{
+  "name":"scala.Tuple8"
+},
+{
+  "name":"scala.Tuple9"
+},
+{
+  "name":"scala.UninitializedFieldError"
+},
+{
+  "name":"scala.UniquenessCache"
+},
+{
+  "name":"scala.Unit"
+},
+{
+  "name":"scala.annotation.Annotation"
+},
+{
+  "name":"scala.annotation.ClassfileAnnotation"
+},
+{
+  "name":"scala.annotation.StaticAnnotation"
+},
+{
+  "name":"scala.annotation.TypeConstraint"
+},
+{
+  "name":"scala.annotation.bridge"
+},
+{
+  "name":"scala.annotation.compileTimeOnly"
+},
+{
+  "name":"scala.annotation.elidable"
+},
+{
+  "name":"scala.annotation.implicitAmbiguous"
+},
+{
+  "name":"scala.annotation.implicitNotFound"
+},
+{
+  "name":"scala.annotation.meta.beanGetter"
+},
+{
+  "name":"scala.annotation.meta.beanSetter"
+},
+{
+  "name":"scala.annotation.meta.companionClass"
+},
+{
+  "name":"scala.annotation.meta.companionMethod"
+},
+{
+  "name":"scala.annotation.meta.companionObject"
+},
+{
+  "name":"scala.annotation.meta.field"
+},
+{
+  "name":"scala.annotation.meta.getter"
+},
+{
+  "name":"scala.annotation.meta.languageFeature"
+},
+{
+  "name":"scala.annotation.meta.package"
+},
+{
+  "name":"scala.annotation.meta.param"
+},
+{
+  "name":"scala.annotation.meta.setter"
+},
+{
+  "name":"scala.annotation.migration"
+},
+{
+  "name":"scala.annotation.showAsInfix"
+},
+{
+  "name":"scala.annotation.strictfp"
+},
+{
+  "name":"scala.annotation.switch"
+},
+{
+  "name":"scala.annotation.tailrec"
+},
+{
+  "name":"scala.annotation.unchecked.uncheckedStable"
+},
+{
+  "name":"scala.annotation.unchecked.uncheckedVariance"
+},
+{
+  "name":"scala.annotation.unspecialized"
+},
+{
+  "name":"scala.annotation.varargs"
+},
+{
+  "name":"scala.beans.BeanProperty"
+},
+{
+  "name":"scala.beans.BooleanBeanProperty"
+},
+{
+  "name":"scala.collection.IndexedSeq"
+},
+{
+  "name":"scala.collection.Iterable"
+},
+{
+  "name":"scala.collection.Iterator"
+},
+{
+  "name":"scala.collection.Seq"
+},
+{
+  "name":"scala.collection.Traversable"
+},
+{
+  "name":"scala.collection.immutable.$colon$colon"
+},
+{
+  "name":"scala.collection.immutable.List"
+},
+{
+  "name":"scala.collection.immutable.ListMap"
+},
+{
+  "name":"scala.collection.immutable.Nil"
+},
+{
+  "name":"scala.collection.immutable.StringOps"
+},
+{
+  "name":"scala.collection.package"
+},
+{
+  "name":"scala.concurrent.ExecutionContext"
+},
+{
+  "name":"scala.concurrent.Future"
+},
+{
+  "name":"scala.concurrent.Future$InternalCallbackExecutor$",
+  "fields":[{"name":"MODULE$"}]
+},
+{
+  "name":"scala.concurrent.Promise"
+},
+{
+  "name":"scala.concurrent.package"
+},
+{
+  "name":"scala.deprecated"
+},
+{
+  "name":"scala.deprecatedInheritance"
+},
+{
+  "name":"scala.deprecatedName"
+},
+{
+  "name":"scala.deprecatedOverriding"
+},
+{
+  "name":"scala.inline"
+},
+{
+  "name":"scala.languageFeature"
+},
+{
+  "name":"scala.math.ScalaNumber"
+},
+{
+  "name":"scala.math.package"
+},
+{
+  "name":"scala.native"
+},
+{
+  "name":"scala.noinline"
+},
+{
+  "name":"scala.package"
+},
+{
+  "name":"scala.reflect.ClassManifestFactory"
+},
+{
+  "name":"scala.reflect.ClassTag"
+},
+{
+  "name":"scala.reflect.Manifest"
+},
+{
+  "name":"scala.reflect.ManifestFactory"
+},
+{
+  "name":"scala.reflect.NoManifest"
+},
+{
+  "name":"scala.reflect.OptManifest"
+},
+{
+  "name":"scala.reflect.ScalaLongSignature"
+},
+{
+  "name":"scala.reflect.ScalaSignature",
+  "methods":[{"name":"bytes","parameterTypes":[] }]
+},
+{
+  "name":"scala.reflect.api.Annotations"
+},
+{
+  "name":"scala.reflect.api.Constants"
+},
+{
+  "name":"scala.reflect.api.Exprs"
+},
+{
+  "name":"scala.reflect.api.FlagSets"
+},
+{
+  "name":"scala.reflect.api.ImplicitTags"
+},
+{
+  "name":"scala.reflect.api.Internals"
+},
+{
+  "name":"scala.reflect.api.JavaUniverse"
+},
+{
+  "name":"scala.reflect.api.Liftables"
+},
+{
+  "name":"scala.reflect.api.Mirror"
+},
+{
+  "name":"scala.reflect.api.Mirrors"
+},
+{
+  "name":"scala.reflect.api.Names"
+},
+{
+  "name":"scala.reflect.api.Positions"
+},
+{
+  "name":"scala.reflect.api.Printers"
+},
+{
+  "name":"scala.reflect.api.Quasiquotes"
+},
+{
+  "name":"scala.reflect.api.Scopes"
+},
+{
+  "name":"scala.reflect.api.StandardDefinitions"
+},
+{
+  "name":"scala.reflect.api.StandardLiftables"
+},
+{
+  "name":"scala.reflect.api.StandardNames"
+},
+{
+  "name":"scala.reflect.api.Symbols"
+},
+{
+  "name":"scala.reflect.api.TreeCreator"
+},
+{
+  "name":"scala.reflect.api.Trees"
+},
+{
+  "name":"scala.reflect.api.TypeCreator"
+},
+{
+  "name":"scala.reflect.api.TypeTags"
+},
+{
+  "name":"scala.reflect.api.Types"
+},
+{
+  "name":"scala.reflect.api.Universe"
+},
+{
+  "name":"scala.reflect.api.package"
+},
+{
+  "name":"scala.reflect.internal.annotations.package"
+},
+{
+  "name":"scala.reflect.internal.annotations.uncheckedBounds"
+},
+{
+  "name":"scala.reflect.io.AbstractFile"
+},
+{
+  "name":"scala.reflect.macros.blackbox.Context"
+},
+{
+  "name":"scala.reflect.macros.internal.macroImpl"
+},
+{
+  "name":"scala.reflect.macros.package"
+},
+{
+  "name":"scala.reflect.macros.whitebox.Context"
+},
+{
+  "name":"scala.reflect.package"
+},
+{
+  "name":"scala.reflect.runtime.package"
+},
+{
+  "name":"scala.remote"
+},
+{
+  "name":"scala.runtime.AbstractFunction0"
+},
+{
+  "name":"scala.runtime.AbstractFunction1"
+},
+{
+  "name":"scala.runtime.AbstractFunction10"
+},
+{
+  "name":"scala.runtime.AbstractFunction11"
+},
+{
+  "name":"scala.runtime.AbstractFunction12"
+},
+{
+  "name":"scala.runtime.AbstractFunction13"
+},
+{
+  "name":"scala.runtime.AbstractFunction14"
+},
+{
+  "name":"scala.runtime.AbstractFunction15"
+},
+{
+  "name":"scala.runtime.AbstractFunction16"
+},
+{
+  "name":"scala.runtime.AbstractFunction17"
+},
+{
+  "name":"scala.runtime.AbstractFunction18"
+},
+{
+  "name":"scala.runtime.AbstractFunction19"
+},
+{
+  "name":"scala.runtime.AbstractFunction2"
+},
+{
+  "name":"scala.runtime.AbstractFunction20"
+},
+{
+  "name":"scala.runtime.AbstractFunction21"
+},
+{
+  "name":"scala.runtime.AbstractFunction22"
+},
+{
+  "name":"scala.runtime.AbstractFunction3"
+},
+{
+  "name":"scala.runtime.AbstractFunction4"
+},
+{
+  "name":"scala.runtime.AbstractFunction5"
+},
+{
+  "name":"scala.runtime.AbstractFunction6"
+},
+{
+  "name":"scala.runtime.AbstractFunction7"
+},
+{
+  "name":"scala.runtime.AbstractFunction8"
+},
+{
+  "name":"scala.runtime.AbstractFunction9"
+},
+{
+  "name":"scala.runtime.AbstractPartialFunction"
+},
+{
+  "name":"scala.runtime.BooleanRef"
+},
+{
+  "name":"scala.runtime.BoxedUnit"
+},
+{
+  "name":"scala.runtime.BoxesRunTime"
+},
+{
+  "name":"scala.runtime.ByteRef"
+},
+{
+  "name":"scala.runtime.CharRef"
+},
+{
+  "name":"scala.runtime.DoubleRef"
+},
+{
+  "name":"scala.runtime.EmptyMethodCache"
+},
+{
+  "name":"scala.runtime.FloatRef"
+},
+{
+  "name":"scala.runtime.IntRef"
+},
+{
+  "name":"scala.runtime.LazyBoolean"
+},
+{
+  "name":"scala.runtime.LazyByte"
+},
+{
+  "name":"scala.runtime.LazyChar"
+},
+{
+  "name":"scala.runtime.LazyDouble"
+},
+{
+  "name":"scala.runtime.LazyFloat"
+},
+{
+  "name":"scala.runtime.LazyInt"
+},
+{
+  "name":"scala.runtime.LazyLong"
+},
+{
+  "name":"scala.runtime.LazyRef"
+},
+{
+  "name":"scala.runtime.LazyShort"
+},
+{
+  "name":"scala.runtime.LazyUnit"
+},
+{
+  "name":"scala.runtime.LongRef"
+},
+{
+  "name":"scala.runtime.MethodCache"
+},
+{
+  "name":"scala.runtime.NonLocalReturnControl"
+},
+{
+  "name":"scala.runtime.Nothing$"
+},
+{
+  "name":"scala.runtime.Null$"
+},
+{
+  "name":"scala.runtime.ObjectRef"
+},
+{
+  "name":"scala.runtime.ScalaRunTime"
+},
+{
+  "name":"scala.runtime.ShortRef"
+},
+{
+  "name":"scala.runtime.Statics"
+},
+{
+  "name":"scala.runtime.StringAdd"
+},
+{
+  "name":"scala.runtime.StructuralCallSite"
+},
+{
+  "name":"scala.runtime.SymbolLiteral"
+},
+{
+  "name":"scala.runtime.VolatileBooleanRef"
+},
+{
+  "name":"scala.runtime.VolatileByteRef"
+},
+{
+  "name":"scala.runtime.VolatileCharRef"
+},
+{
+  "name":"scala.runtime.VolatileDoubleRef"
+},
+{
+  "name":"scala.runtime.VolatileFloatRef"
+},
+{
+  "name":"scala.runtime.VolatileIntRef"
+},
+{
+  "name":"scala.runtime.VolatileLongRef"
+},
+{
+  "name":"scala.runtime.VolatileObjectRef"
+},
+{
+  "name":"scala.runtime.VolatileShortRef"
+},
+{
+  "name":"scala.runtime.package"
+},
+{
+  "name":"scala.specialized"
+},
+{
+  "name":"scala.sys.package"
+},
+{
+  "name":"scala.throws"
+},
+{
+  "name":"scala.transient"
+},
+{
+  "name":"scala.unchecked"
+},
+{
+  "name":"scala.volatile"
+},
+{
+  "name":"scalapb.GeneratedMessage"
+},
+{
+  "name":"scaldi.Injectable"
+},
+{
+  "name":"scaldi.Injector"
+},
+{
+  "name":"scaldi.Wire"
+},
+{
+  "name":"scaldi.akka.AkkaInjectable"
+},
+{
+  "name":"scaldi.akka.ScaldiActorProducer",
+  "allDeclaredConstructors":true
+},
+{
+  "name":"scaldi.package"
+},
+{
+  "name":"sun.misc.Cleaner",
+  "methods":[{"name":"clean","parameterTypes":[] }]
+},
+{
+  "name":"sun.misc.Unsafe",
+  "allDeclaredFields":true,
+  "methods":[
+    {"name":"arrayBaseOffset","parameterTypes":["java.lang.Class"] }, 
+    {"name":"arrayIndexScale","parameterTypes":["java.lang.Class"] }, 
+    {"name":"copyMemory","parameterTypes":["long","long","long"] }, 
+    {"name":"copyMemory","parameterTypes":["java.lang.Object","long","java.lang.Object","long","long"] }, 
+    {"name":"getBoolean","parameterTypes":["java.lang.Object","long"] }, 
+    {"name":"getByte","parameterTypes":["long"] }, 
+    {"name":"getByte","parameterTypes":["java.lang.Object","long"] }, 
+    {"name":"getDouble","parameterTypes":["java.lang.Object","long"] }, 
+    {"name":"getFloat","parameterTypes":["java.lang.Object","long"] }, 
+    {"name":"getInt","parameterTypes":["long"] }, 
+    {"name":"getInt","parameterTypes":["java.lang.Object","long"] }, 
+    {"name":"getLong","parameterTypes":["long"] }, 
+    {"name":"getLong","parameterTypes":["java.lang.Object","long"] }, 
+    {"name":"getObject","parameterTypes":["java.lang.Object","long"] }, 
+    {"name":"objectFieldOffset","parameterTypes":["java.lang.reflect.Field"] }, 
+    {"name":"putBoolean","parameterTypes":["java.lang.Object","long","boolean"] }, 
+    {"name":"putByte","parameterTypes":["long","byte"] }, 
+    {"name":"putByte","parameterTypes":["java.lang.Object","long","byte"] }, 
+    {"name":"putDouble","parameterTypes":["java.lang.Object","long","double"] }, 
+    {"name":"putFloat","parameterTypes":["java.lang.Object","long","float"] }, 
+    {"name":"putInt","parameterTypes":["long","int"] }, 
+    {"name":"putInt","parameterTypes":["java.lang.Object","long","int"] }, 
+    {"name":"putLong","parameterTypes":["long","long"] }, 
+    {"name":"putLong","parameterTypes":["java.lang.Object","long","long"] }, 
+    {"name":"putObject","parameterTypes":["java.lang.Object","long","java.lang.Object"] }
+  ]
+},
+{
+  "name":"sun.reflect.Reflection",
+  "methods":[{"name":"getCallerClass","parameterTypes":["int"] }]
+}
+]

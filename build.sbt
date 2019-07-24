@@ -66,8 +66,9 @@ lazy val demo = (project in file("demo"))
       "--initialize-at-build-time",
       "--no-fallback",
       "-H:ConfigurationFileDirectories=/Users/deanzhang/work/code/github/graalvm-demo/demo/conf/",
-      "-H:+PrintClassInitialization",
-      "-H:PrintFlags=+",
+      //"-H:+PrintClassInitialization",
+      //"-H:ClassInitialization=org.apache.logging.log4j.core.appender.AbstractManager:run_time,org.apache.logging.log4j.core.appender.rolling.RollingFileManager:build_time"
+      //"-H:PrintFlags=+",
       //"-H:Class=play.core.server.ProdServerStart"
       //"--force-fallback"
     )

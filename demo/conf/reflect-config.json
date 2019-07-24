@@ -1,0 +1,2605 @@
+[
+{
+  "name":"[B"
+},
+{
+  "name":"akka.actor.Actor",
+  "allDeclaredMethods":true
+},
+{
+  "name":"akka.actor.ActorCell",
+  "allDeclaredFields":true
+},
+{
+  "name":"akka.actor.ActorIdentity"
+},
+{
+  "name":"akka.actor.ActorInitializationException"
+},
+{
+  "name":"akka.actor.ActorKilledException"
+},
+{
+  "name":"akka.actor.ActorLogging",
+  "allDeclaredMethods":true
+},
+{
+  "name":"akka.actor.ActorRef"
+},
+{
+  "name":"akka.actor.ActorSelectionMessage"
+},
+{
+  "name":"akka.actor.DefaultSupervisorStrategy",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"akka.actor.Identify"
+},
+{
+  "name":"akka.actor.IllegalActorStateException"
+},
+{
+  "name":"akka.actor.InvalidActorNameException"
+},
+{
+  "name":"akka.actor.InvalidMessageException"
+},
+{
+  "name":"akka.actor.Kill$"
+},
+{
+  "name":"akka.actor.LightArrayRevolverScheduler",
+  "methods":[{"name":"<init>","parameterTypes":["com.typesafe.config.Config","akka.event.LoggingAdapter","java.util.concurrent.ThreadFactory"] }]
+},
+{
+  "name":"akka.actor.LightArrayRevolverScheduler$TaskHolder",
+  "fields":[{"name":"task"}]
+},
+{
+  "name":"akka.actor.LocalActorRefProvider$Guardian",
+  "allDeclaredFields":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"akka.actor.LocalActorRefProvider$SystemGuardian",
+  "allDeclaredFields":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"akka.actor.LocalScope$"
+},
+{
+  "name":"akka.actor.PoisonPill$"
+},
+{
+  "name":"akka.actor.Props$EmptyActor",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"akka.actor.RepointableActorRef",
+  "fields":[
+    {"name":"_cellDoNotCallMeDirectly"}, 
+    {"name":"_lookupDoNotCallMeDirectly"}
+  ]
+},
+{
+  "name":"akka.actor.Status$Failure"
+},
+{
+  "name":"akka.actor.Status$Success"
+},
+{
+  "name":"akka.cluster.ClusterActorRefProvider",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","akka.actor.ActorSystem$Settings","akka.event.EventStream","akka.actor.DynamicAccess"] }]
+},
+{
+  "name":"akka.cluster.ClusterCoreDaemon",
+  "allDeclaredFields":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"akka.cluster.ClusterCoreSupervisor",
+  "allDeclaredFields":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"akka.cluster.ClusterDaemon",
+  "allDeclaredFields":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"akka.cluster.ClusterDomainEventPublisher",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"akka.cluster.ClusterHeartbeatReceiver",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"akka.cluster.ClusterHeartbeatSender",
+  "allDeclaredFields":true
+},
+{
+  "name":"akka.cluster.ClusterMessage"
+},
+{
+  "name":"akka.cluster.ClusterReadView$$anon$1",
+  "allDeclaredFields":true
+},
+{
+  "name":"akka.cluster.ClusterRemoteWatcher",
+  "allDeclaredFields":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"akka.cluster.CoordinatedShutdownLeave",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"akka.cluster.CrossDcHeartbeatSender",
+  "allDeclaredFields":true
+},
+{
+  "name":"akka.cluster.JoinConfigCompatCheckCluster",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"akka.cluster.NoDowning",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ActorSystem"] }]
+},
+{
+  "name":"akka.cluster.OnMemberStatusChangedListener",
+  "allDeclaredFields":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"akka.cluster.client.ClusterClientMessage"
+},
+{
+  "name":"akka.cluster.client.protobuf.ClusterClientMessageSerializer",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.cluster.ddata.ReplicatedDataSerialization"
+},
+{
+  "name":"akka.cluster.ddata.Replicator$ReplicatorMessage"
+},
+{
+  "name":"akka.cluster.ddata.protobuf.ReplicatedDataSerializer",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.cluster.ddata.protobuf.ReplicatorMessageSerializer",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.cluster.metrics.AdaptiveLoadBalancingPool"
+},
+{
+  "name":"akka.cluster.metrics.ClusterMetricsMessage"
+},
+{
+  "name":"akka.cluster.metrics.CpuMetricsSelector$"
+},
+{
+  "name":"akka.cluster.metrics.HeapMetricsSelector$"
+},
+{
+  "name":"akka.cluster.metrics.MixMetricsSelector"
+},
+{
+  "name":"akka.cluster.metrics.SystemLoadAverageMetricsSelector$"
+},
+{
+  "name":"akka.cluster.metrics.protobuf.MessageSerializer",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.cluster.protobuf.ClusterMessageSerializer",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.cluster.protobuf.msg.ClusterMessages$Member",
+  "methods":[
+    {"name":"getAddressIndex","parameterTypes":[] }, 
+    {"name":"getRolesIndexes","parameterTypes":["int"] }, 
+    {"name":"getRolesIndexesCount","parameterTypes":[] }, 
+    {"name":"getRolesIndexesList","parameterTypes":[] }, 
+    {"name":"getStatus","parameterTypes":[] }, 
+    {"name":"getUpNumber","parameterTypes":[] }, 
+    {"name":"hasAddressIndex","parameterTypes":[] }, 
+    {"name":"hasStatus","parameterTypes":[] }, 
+    {"name":"hasUpNumber","parameterTypes":[] }
+  ]
+},
+{
+  "name":"akka.cluster.protobuf.msg.ClusterMessages$Member$Builder",
+  "methods":[
+    {"name":"addRolesIndexes","parameterTypes":["int"] }, 
+    {"name":"clearAddressIndex","parameterTypes":[] }, 
+    {"name":"clearRolesIndexes","parameterTypes":[] }, 
+    {"name":"clearStatus","parameterTypes":[] }, 
+    {"name":"clearUpNumber","parameterTypes":[] }, 
+    {"name":"getAddressIndex","parameterTypes":[] }, 
+    {"name":"getRolesIndexes","parameterTypes":["int"] }, 
+    {"name":"getRolesIndexesCount","parameterTypes":[] }, 
+    {"name":"getRolesIndexesList","parameterTypes":[] }, 
+    {"name":"getStatus","parameterTypes":[] }, 
+    {"name":"getUpNumber","parameterTypes":[] }, 
+    {"name":"hasAddressIndex","parameterTypes":[] }, 
+    {"name":"hasStatus","parameterTypes":[] }, 
+    {"name":"hasUpNumber","parameterTypes":[] }, 
+    {"name":"setAddressIndex","parameterTypes":["int"] }, 
+    {"name":"setRolesIndexes","parameterTypes":["int","int"] }, 
+    {"name":"setStatus","parameterTypes":["akka.cluster.protobuf.msg.ClusterMessages$MemberStatus"] }, 
+    {"name":"setUpNumber","parameterTypes":["int"] }
+  ]
+},
+{
+  "name":"akka.cluster.protobuf.msg.ClusterMessages$MemberStatus",
+  "methods":[
+    {"name":"getValueDescriptor","parameterTypes":[] }, 
+    {"name":"valueOf","parameterTypes":["akka.protobuf.Descriptors$EnumValueDescriptor"] }
+  ]
+},
+{
+  "name":"akka.cluster.pubsub.DistributedPubSubMediator$Internal$SendToOneSubscriber"
+},
+{
+  "name":"akka.cluster.pubsub.DistributedPubSubMessage"
+},
+{
+  "name":"akka.cluster.pubsub.protobuf.DistributedPubSubMessageSerializer",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.cluster.routing.ClusterRouterPool"
+},
+{
+  "name":"akka.cluster.sharding.ClusterShardingSerializable"
+},
+{
+  "name":"akka.cluster.sharding.JoinConfigCompatCheckSharding",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"akka.cluster.sharding.protobuf.ClusterShardingMessageSerializer",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.cluster.singleton.ClusterSingletonManager",
+  "allDeclaredFields":true
+},
+{
+  "name":"akka.cluster.singleton.ClusterSingletonManager$Internal$OldestChangedBuffer",
+  "allDeclaredFields":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"akka.cluster.singleton.ClusterSingletonMessage"
+},
+{
+  "name":"akka.cluster.singleton.ClusterSingletonProxy",
+  "allDeclaredFields":true
+},
+{
+  "name":"akka.cluster.singleton.protobuf.ClusterSingletonMessageSerializer",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.discovery.config.ConfigServiceDiscovery",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.dispatch.AbstractNodeQueue",
+  "fields":[{"name":"_tailDoNotCallMeDirectly"}]
+},
+{
+  "name":"akka.dispatch.AbstractNodeQueue$Node",
+  "fields":[{"name":"_nextDoNotCallMeDirectly"}]
+},
+{
+  "name":"akka.dispatch.BoundedControlAwareMessageQueueSemantics"
+},
+{
+  "name":"akka.dispatch.BoundedDequeBasedMessageQueueSemantics"
+},
+{
+  "name":"akka.dispatch.BoundedMessageQueueSemantics"
+},
+{
+  "name":"akka.dispatch.ControlAwareMessageQueueSemantics"
+},
+{
+  "name":"akka.dispatch.DequeBasedMessageQueueSemantics"
+},
+{
+  "name":"akka.dispatch.Mailbox",
+  "fields":[
+    {"name":"_statusDoNotCallMeDirectly"}, 
+    {"name":"_systemQueueDoNotCallMeDirectly"}
+  ]
+},
+{
+  "name":"akka.dispatch.MessageDispatcher",
+  "fields":[
+    {"name":"_inhabitantsDoNotCallMeDirectly"}, 
+    {"name":"_shutdownScheduleDoNotCallMeDirectly"}
+  ]
+},
+{
+  "name":"akka.dispatch.MultipleConsumerSemantics"
+},
+{
+  "name":"akka.dispatch.UnboundedControlAwareMessageQueueSemantics"
+},
+{
+  "name":"akka.dispatch.UnboundedDequeBasedMessageQueueSemantics"
+},
+{
+  "name":"akka.dispatch.UnboundedMailbox",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ActorSystem$Settings","com.typesafe.config.Config"] }]
+},
+{
+  "name":"akka.dispatch.UnboundedMessageQueueSemantics"
+},
+{
+  "name":"akka.dispatch.forkjoin.ForkJoinPool",
+  "fields":[
+    {"name":"ctl"}, 
+    {"name":"indexSeed"}, 
+    {"name":"plock"}, 
+    {"name":"stealCount"}
+  ]
+},
+{
+  "name":"akka.dispatch.forkjoin.ForkJoinPool$WorkQueue",
+  "fields":[{"name":"qlock"}]
+},
+{
+  "name":"akka.dispatch.forkjoin.ForkJoinTask",
+  "fields":[{"name":"status"}]
+},
+{
+  "name":"akka.dispatch.sysmsg.SystemMessage"
+},
+{
+  "name":"akka.event.EventStreamUnsubscriber",
+  "allDeclaredFields":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"akka.event.LoggerMailboxType",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ActorSystem$Settings","com.typesafe.config.Config"] }]
+},
+{
+  "name":"akka.event.LoggerMessageQueueSemantics"
+},
+{
+  "name":"akka.event.slf4j.Slf4jLogger",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"akka.event.slf4j.Slf4jLoggingFilter",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ActorSystem$Settings","akka.event.EventStream"] }]
+},
+{
+  "name":"akka.http.impl.engine.client.PoolInterfaceActor",
+  "allDeclaredFields":true
+},
+{
+  "name":"akka.http.impl.engine.client.PoolMasterActor",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"akka.io.InetAddressDnsProvider",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"akka.io.InetAddressDnsResolver",
+  "allDeclaredFields":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"akka.io.SelectionHandler",
+  "allDeclaredFields":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"akka.io.SelectionHandler$SelectorBasedManager",
+  "allDeclaredFields":true
+},
+{
+  "name":"akka.io.SimpleDnsManager",
+  "allDeclaredFields":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"akka.io.TcpConnection",
+  "allDeclaredFields":true
+},
+{
+  "name":"akka.io.TcpIncomingConnection",
+  "allDeclaredFields":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"akka.io.TcpListener",
+  "allDeclaredFields":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"akka.io.TcpManager",
+  "allDeclaredFields":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"akka.io.TcpOutgoingConnection",
+  "allDeclaredFields":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"akka.management.HealthCheckRoutes",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.management.cluster.ClusterHttpManagementMessage",
+  "allDeclaredFields":true,
+  "allPublicMethods":true
+},
+{
+  "name":"akka.management.cluster.ClusterHttpManagementRouteProvider$",
+  "fields":[{"name":"MODULE$"}]
+},
+{
+  "name":"akka.management.cluster.ClusterMember",
+  "allDeclaredFields":true,
+  "allPublicMethods":true
+},
+{
+  "name":"akka.management.cluster.ClusterMembers",
+  "allDeclaredFields":true,
+  "allPublicMethods":true
+},
+{
+  "name":"akka.management.cluster.ClusterUnreachableMember",
+  "allDeclaredFields":true,
+  "allPublicMethods":true
+},
+{
+  "name":"akka.management.cluster.ShardDetails",
+  "allDeclaredFields":true,
+  "allPublicMethods":true
+},
+{
+  "name":"akka.management.cluster.ShardRegionInfo",
+  "allDeclaredFields":true,
+  "allPublicMethods":true
+},
+{
+  "name":"akka.management.cluster.bootstrap.ClusterBootstrap$",
+  "fields":[{"name":"MODULE$"}]
+},
+{
+  "name":"akka.management.cluster.bootstrap.LowestAddressJoinDecider",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ActorSystem","akka.management.cluster.bootstrap.ClusterBootstrapSettings"] }]
+},
+{
+  "name":"akka.management.cluster.bootstrap.contactpoint.HttpBootstrapJsonProtocol$ClusterMember",
+  "allDeclaredFields":true,
+  "allPublicMethods":true
+},
+{
+  "name":"akka.management.cluster.bootstrap.contactpoint.HttpBootstrapJsonProtocol$SeedNode",
+  "allDeclaredFields":true,
+  "allPublicMethods":true
+},
+{
+  "name":"akka.management.cluster.bootstrap.contactpoint.HttpBootstrapJsonProtocol$SeedNodes",
+  "allDeclaredFields":true,
+  "allPublicMethods":true
+},
+{
+  "name":"akka.management.cluster.bootstrap.internal.BootstrapCoordinator",
+  "allDeclaredFields":true
+},
+{
+  "name":"akka.management.cluster.bootstrap.internal.HttpContactPointBootstrap",
+  "allDeclaredFields":true
+},
+{
+  "name":"akka.management.cluster.scaladsl.ClusterMembershipCheck",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ActorSystem"] }]
+},
+{
+  "name":"akka.pattern.PromiseActorRef",
+  "fields":[
+    {"name":"_stateDoNotCallMeDirectly"}, 
+    {"name":"_watchedByDoNotCallMeDirectly"}
+  ]
+},
+{
+  "name":"akka.persistence.serialization.Message"
+},
+{
+  "name":"akka.persistence.serialization.MessageSerializer",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.persistence.serialization.Snapshot"
+},
+{
+  "name":"akka.persistence.serialization.SnapshotSerializer",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.protobuf.GeneratedMessage"
+},
+{
+  "name":"akka.remote.DaemonMsgCreate"
+},
+{
+  "name":"akka.remote.DeadlineFailureDetector",
+  "methods":[{"name":"<init>","parameterTypes":["com.typesafe.config.Config","akka.event.EventStream"] }]
+},
+{
+  "name":"akka.remote.EndpointActor",
+  "allDeclaredFields":true
+},
+{
+  "name":"akka.remote.EndpointManager",
+  "allDeclaredFields":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"akka.remote.EndpointReader",
+  "allDeclaredFields":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"akka.remote.EndpointWriter",
+  "allDeclaredFields":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"akka.remote.PhiAccrualFailureDetector",
+  "methods":[{"name":"<init>","parameterTypes":["com.typesafe.config.Config","akka.event.EventStream"] }]
+},
+{
+  "name":"akka.remote.ReliableDeliverySupervisor",
+  "allDeclaredFields":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"akka.remote.RemoteActorRefProvider$RemotingTerminator",
+  "allDeclaredFields":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"akka.remote.RemoteDeploymentWatcher",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"akka.remote.RemoteScope"
+},
+{
+  "name":"akka.remote.RemoteWatcher",
+  "allDeclaredFields":true
+},
+{
+  "name":"akka.remote.RemoteWatcher$Heartbeat$"
+},
+{
+  "name":"akka.remote.RemoteWatcher$HeartbeatRsp"
+},
+{
+  "name":"akka.remote.Remoting$TransportSupervisor",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"akka.remote.artery.ArteryMessage"
+},
+{
+  "name":"akka.remote.routing.RemoteRouterConfig"
+},
+{
+  "name":"akka.remote.serialization.ArteryMessageSerializer",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.remote.serialization.ByteStringSerializer",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.remote.serialization.DaemonMsgCreateSerializer",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.remote.serialization.IntSerializer",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.remote.serialization.LongSerializer",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.remote.serialization.MessageContainerSerializer",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.remote.serialization.MiscMessageSerializer",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.remote.serialization.ProtobufSerializer",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.remote.serialization.StringSerializer",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.remote.serialization.SystemMessageSerializer",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.remote.transport.ActorTransportAdapterManager",
+  "allDeclaredFields":true
+},
+{
+  "name":"akka.remote.transport.AkkaProtocolManager",
+  "allDeclaredFields":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"akka.remote.transport.FailureInjectorProvider",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"akka.remote.transport.ProtocolStateActor",
+  "allDeclaredFields":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"akka.remote.transport.ThrottlerProvider",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"akka.remote.transport.netty.NettyTransport",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem","com.typesafe.config.Config"] }]
+},
+{
+  "name":"akka.routing.BalancingPool"
+},
+{
+  "name":"akka.routing.BroadcastGroup"
+},
+{
+  "name":"akka.routing.BroadcastPool"
+},
+{
+  "name":"akka.routing.ConsistentHashingPool",
+  "methods":[{"name":"<init>","parameterTypes":["com.typesafe.config.Config"] }]
+},
+{
+  "name":"akka.routing.DefaultResizer"
+},
+{
+  "name":"akka.routing.FromConfig"
+},
+{
+  "name":"akka.routing.RandomGroup"
+},
+{
+  "name":"akka.routing.RandomPool"
+},
+{
+  "name":"akka.routing.RoundRobinGroup"
+},
+{
+  "name":"akka.routing.RoundRobinPool",
+  "methods":[{"name":"<init>","parameterTypes":["com.typesafe.config.Config"] }]
+},
+{
+  "name":"akka.routing.RoutedActorCell$RouterActorCreator",
+  "allDeclaredConstructors":true
+},
+{
+  "name":"akka.routing.RouterActor",
+  "allDeclaredFields":true
+},
+{
+  "name":"akka.routing.RouterPoolActor",
+  "allDeclaredFields":true
+},
+{
+  "name":"akka.routing.ScatterGatherFirstCompletedGroup"
+},
+{
+  "name":"akka.routing.ScatterGatherFirstCompletedPool"
+},
+{
+  "name":"akka.routing.SmallestMailboxPool"
+},
+{
+  "name":"akka.routing.TailChoppingGroup"
+},
+{
+  "name":"akka.routing.TailChoppingPool"
+},
+{
+  "name":"akka.serialization.ByteArraySerializer",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.serialization.JavaSerializer",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.serialization.SerializationExtension$",
+  "fields":[{"name":"MODULE$"}]
+},
+{
+  "name":"akka.stream.SinkRef"
+},
+{
+  "name":"akka.stream.SourceRef"
+},
+{
+  "name":"akka.stream.impl.StreamSupervisor",
+  "allDeclaredFields":true
+},
+{
+  "name":"akka.stream.impl.fusing.ActorGraphInterpreter",
+  "allDeclaredFields":true
+},
+{
+  "name":"akka.stream.impl.streamref.StreamRefsProtocol"
+},
+{
+  "name":"akka.stream.serialization.StreamRefSerializer",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.util.ByteString$ByteString1"
+},
+{
+  "name":"akka.util.ByteString$ByteString1C"
+},
+{
+  "name":"akka.util.ByteString$ByteStrings"
+},
+{
+  "name":"com.fasterxml.jackson.databind.ext.Java7SupportImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.google.common.base.internal.Finalizer",
+  "methods":[{"name":"startFinalizer","parameterTypes":["java.lang.Class","java.lang.ref.ReferenceQueue","java.lang.ref.PhantomReference"] }]
+},
+{
+  "name":"com.google.common.util.concurrent.AbstractFuture",
+  "fields":[
+    {"name":"listeners"}, 
+    {"name":"value"}, 
+    {"name":"waiters"}
+  ]
+},
+{
+  "name":"com.google.common.util.concurrent.AbstractFuture$Waiter",
+  "fields":[
+    {"name":"next"}, 
+    {"name":"thread"}
+  ]
+},
+{
+  "name":"com.google.inject.AbstractModule",
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.google.inject.Module",
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.google.inject.Provider",
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.google.inject.internal.Annotations",
+  "methods":[{"name":"determineWhetherToQuote","parameterTypes":[] }]
+},
+{
+  "name":"com.google.inject.internal.InjectorShell$RootModule",
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.google.inject.internal.InternalProviderInstanceBindingImpl$CyclicFactory",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.google.inject.internal.InternalProviderInstanceBindingImpl$Factory",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.google.inject.internal.ProviderMethod",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.google.inject.internal.ProviderMethod$FastClassProviderMethod",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.google.inject.internal.cglib.core.$MethodWrapper$MethodWrapperKey",
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.google.inject.internal.cglib.core.$MethodWrapper$MethodWrapperKey$$$KeyFactoryByCGLIB$$e23ecb5d",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.google.inject.name.Named",
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.google.inject.spi.HasDependencies",
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.google.inject.spi.ProviderWithDependencies",
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.google.inject.util.Modules$2",
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.google.inject.util.Modules$EmptyModule",
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.google.inject.util.Modules$OverrideModule",
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.google.inject.util.Providers$GuicifiedProvider",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.google.inject.util.Providers$GuicifiedProviderWithDependencies",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.google.inject.util.Providers$GuicifiedProviderWithDependencies$$FastClassByGuice$$2a7177aa",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"com.google.protobuf.GeneratedMessage"
+},
+{
+  "name":"com.typesafe.config.Config"
+},
+{
+  "name":"com.typesafe.config.impl.SimpleConfig"
+},
+{
+  "name":"com.typesafe.sslconfig.ssl.DefaultHostnameVerifier",
+  "methods":[{"name":"<init>","parameterTypes":["com.typesafe.sslconfig.util.LoggerFactory"] }]
+},
+{
+  "name":"controllers.Assets",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"controllers.Assets$$FastClassByGuice$$b99a351a",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"controllers.AssetsBuilder",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"controllers.AssetsConfigurationProvider",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"controllers.AssetsConfigurationProvider$$FastClassByGuice$$c5ffb80d",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"controllers.AssetsFinderProvider",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"controllers.AssetsFinderProvider$$FastClassByGuice$$afe167f1",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"controllers.AssetsMetadataProvider",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"controllers.AssetsMetadataProvider$$FastClassByGuice$$baa64b7a",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"controllers.AssetsModule",
+  "allPublicConstructors":true
+},
+{
+  "name":"graalvm.demo.CustomApplicationLoader",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"graalvm.demo.Filters",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"graalvm.demo.Filters$$FastClassByGuice$$5696e306",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"graalvm.demo.Log4J2LoggerConfigurator",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"graalvm.demo.actors.ClusterMonitor",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"graalvm.demo.actors.ClusterMonitor$$FastClassByGuice$$4406e4db",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"graalvm.demo.actors.NodeRegistry",
+  "allDeclaredFields":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"graalvm.demo.actors.NodeStateQuery",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"graalvm.demo.actors.NodeStateQuery$$FastClassByGuice$$65cff534",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"graalvm.demo.actors.PingMan",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"graalvm.demo.actors.PingMan$$FastClassByGuice$$1cce200d",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"graalvm.demo.actors.PongMan",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"graalvm.demo.actors.PongMan$$FastClassByGuice$$270b33c7",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"graalvm.demo.common.ClusterRole$",
+  "allDeclaredFields":true,
+  "allPublicMethods":true
+},
+{
+  "name":"graalvm.demo.common.ScalaProtobufSerializer",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"graalvm.demo.controllers.DemoController",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"graalvm.demo.controllers.DemoController$$FastClassByGuice$$5721b36b",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"graalvm.demo.modules.DemoModule",
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allPublicConstructors":true
+},
+{
+  "name":"graalvm.demo.modules.DemoModule$$FastClassByGuice$$8f5fc30b",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"graalvm.demo.node.NodeServerState"
+},
+{
+  "name":"graalvm.demo.node.NodeServerState$",
+  "fields":[{"name":"MODULE$"}]
+},
+{
+  "name":"graalvm.demo.node.NodeStateChanged"
+},
+{
+  "name":"graalvm.demo.node.NodeStateChanged$",
+  "fields":[{"name":"MODULE$"}]
+},
+{
+  "name":"graalvm.demo.node.NodeUnregister"
+},
+{
+  "name":"graalvm.demo.node.NodeUnregister$",
+  "fields":[{"name":"MODULE$"}]
+},
+{
+  "name":"graalvm.demo.node.TaskState"
+},
+{
+  "name":"graalvm.demo.node.TaskState$",
+  "fields":[{"name":"MODULE$"}]
+},
+{
+  "name":"java.io.Serializable",
+  "allDeclaredMethods":true
+},
+{
+  "name":"java.lang.Boolean",
+  "methods":[{"name":"parseBoolean","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.Byte",
+  "methods":[{"name":"parseByte","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.ClassLoader",
+  "methods":[{"name":"defineClass","parameterTypes":["java.lang.String","byte[]","int","int","java.security.ProtectionDomain"] }]
+},
+{
+  "name":"java.lang.Double",
+  "methods":[{"name":"parseDouble","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.Float",
+  "methods":[{"name":"parseFloat","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.Integer",
+  "methods":[{"name":"parseInt","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.Long",
+  "methods":[{"name":"parseLong","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.Object",
+  "allDeclaredMethods":true
+},
+{
+  "name":"java.lang.Short",
+  "methods":[{"name":"parseShort","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.String",
+  "fields":[{"name":"value"}]
+},
+{
+  "name":"java.lang.Thread",
+  "fields":[
+    {"name":"inheritableThreadLocals"}, 
+    {"name":"parkBlocker"}
+  ]
+},
+{
+  "name":"java.lang.Throwable"
+},
+{
+  "name":"java.nio.Buffer",
+  "fields":[{"name":"address"}]
+},
+{
+  "name":"java.nio.DirectByteBuffer",
+  "methods":[{"name":"cleaner","parameterTypes":[] }]
+},
+{
+  "name":"java.util.Optional"
+},
+{
+  "name":"java.util.concurrent.ConcurrentNavigableMap"
+},
+{
+  "name":"java.util.concurrent.ConcurrentSkipListMap"
+},
+{
+  "name":"javax.inject.Named",
+  "allDeclaredMethods":true
+},
+{
+  "name":"javax.inject.Provider",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.ConsoleAppender",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.ConsoleAppender$Builder",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.RollingFileAppender",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.TimeBasedTriggeringPolicy",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.apache.logging.log4j.core.config.AppenderRef",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.apache.logging.log4j.core.config.AppendersPlugin",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.apache.logging.log4j.core.config.LoggerConfig",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.apache.logging.log4j.core.config.LoggerConfig$RootLogger",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.apache.logging.log4j.core.config.LoggersPlugin",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.apache.logging.log4j.core.config.json.JsonConfigurationFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$BigDecimalConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$BigIntegerConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$BooleanConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$ByteArrayConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$ByteConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$CharArrayConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$CharacterConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$CharsetConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$ClassConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$DoubleConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$FileConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$FloatConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$IntegerConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$LevelConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$LongConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$PatternConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$SecurityProviderConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$ShortConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$StringConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$UriConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$UrlConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.validation.validators.RequiredValidator",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.visitors.PluginAttributeVisitor",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.visitors.PluginBuilderAttributeVisitor",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.visitors.PluginConfigurationVisitor",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.visitors.PluginElementVisitor",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.properties.PropertiesConfigurationFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.xml.XmlConfigurationFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.yaml.YamlConfigurationFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.filter.ThresholdFilter",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.apache.logging.log4j.core.impl.Log4jContextFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.layout.PatternLayout",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.apache.logging.log4j.core.layout.PatternLayout$Builder",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.ContextMapLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.DateLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.EnvironmentLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.JavaLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.JmxRuntimeInputArgumentsLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.JndiLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.Log4jLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.MainMapLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.MapLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.MarkerLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.ResourceBundleLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.StructuredDataLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.SystemPropertiesLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.DatePatternConverter",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.FileDatePatternConverter",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.FullLocationPatternConverter",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.IntegerPatternConverter",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.LevelPatternConverter",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.LineSeparatorPatternConverter",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.LoggerPatternConverter",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.MessagePatternConverter",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.ThreadPatternConverter",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.apache.logging.log4j.message.ParameterizedMessageFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"play.Application",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.DefaultApplication",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.DefaultApplication$$FastClassByGuice$$78658169",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.Environment",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.Environment$$FastClassByGuice$$a98fee39",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.api.Application",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.api.DefaultApplication",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.api.DefaultApplication$$FastClassByGuice$$e0e610bd",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.api.OptionalSourceMapperProvider",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.api.OptionalSourceMapperProvider$$FastClassByGuice$$2af69abb",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.api.http.ContentTypes",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.api.http.DefaultFileMimeTypesProvider",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.api.http.DefaultFileMimeTypesProvider$$FastClassByGuice$$20136991",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.api.http.DefaultHttpErrorHandler",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.api.http.DefaultHttpErrorHandler$$FastClassByGuice$$7895b873",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.api.http.DefaultHttpRequestHandler",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.api.http.HeaderNames",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.api.http.HttpConfiguration$ActionCompositionConfigurationProvider",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.api.http.HttpConfiguration$ActionCompositionConfigurationProvider$$FastClassByGuice$$8b4ca1c1",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.api.http.HttpConfiguration$CookiesConfigurationProvider",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.api.http.HttpConfiguration$CookiesConfigurationProvider$$FastClassByGuice$$ed192126",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.api.http.HttpConfiguration$FileMimeTypesConfigurationProvider",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.api.http.HttpConfiguration$FileMimeTypesConfigurationProvider$$FastClassByGuice$$a05fdeec",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.api.http.HttpConfiguration$FlashConfigurationProvider",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.api.http.HttpConfiguration$FlashConfigurationProvider$$FastClassByGuice$$105c4de5",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.api.http.HttpConfiguration$HttpConfigurationProvider",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.api.http.HttpConfiguration$HttpConfigurationProvider$$FastClassByGuice$$74cc50b1",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.api.http.HttpConfiguration$ParserConfigurationProvider",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.api.http.HttpConfiguration$ParserConfigurationProvider$$FastClassByGuice$$343784fa",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.api.http.HttpConfiguration$SecretConfigurationProvider",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.api.http.HttpConfiguration$SecretConfigurationProvider$$FastClassByGuice$$39c56709",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.api.http.HttpConfiguration$SessionConfigurationProvider",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.api.http.HttpConfiguration$SessionConfigurationProvider$$FastClassByGuice$$2b39fb7f",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.api.http.HttpErrorHandler",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.api.http.HttpFilters",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.api.http.HttpProtocol",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.api.http.HttpRequestHandler",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.api.http.JavaCompatibleHttpRequestHandler",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.api.http.JavaCompatibleHttpRequestHandler$$FastClassByGuice$$70123b51",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.api.http.JavaHttpErrorHandlerDelegate",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.api.http.JavaHttpErrorHandlerDelegate$$FastClassByGuice$$8a679669",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.api.http.JavaHttpFiltersDelegate",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.api.http.JavaHttpFiltersDelegate$$FastClassByGuice$$1e95cabe",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.api.http.Status",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.api.i18n.DefaultLangsProvider",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.api.i18n.DefaultLangsProvider$$FastClassByGuice$$515cae77",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.api.i18n.DefaultMessagesApiProvider",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.api.i18n.DefaultMessagesApiProvider$$FastClassByGuice$$f000d9a0",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.api.i18n.I18nModule",
+  "allPublicConstructors":true
+},
+{
+  "name":"play.api.inject.ApplicationLifecycle",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.api.inject.BindingKey$$anon$1",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.api.inject.BuiltinModule",
+  "allPublicConstructors":true
+},
+{
+  "name":"play.api.inject.ConfigProvider",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.api.inject.ConfigProvider$$FastClassByGuice$$17ba8662",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.api.inject.DefaultApplicationLifecycle",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.api.inject.DefaultApplicationLifecycle$$FastClassByGuice$$f8be112c",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.api.inject.Injector",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.api.inject.RoutesProvider",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.api.inject.RoutesProvider$$FastClassByGuice$$d026126a",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.api.inject.guice.GuiceInjector",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.api.inject.guice.GuiceInjector$$FastClassByGuice$$3eb6b631",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.api.inject.guice.GuiceInjectorWithClassLoaderProvider",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.api.inject.guice.GuiceInjectorWithClassLoaderProvider$$FastClassByGuice$$df81faa5",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.api.inject.guice.GuiceableModuleConversions$$anon$4",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.api.libs.Files$DefaultTemporaryFileCreator",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.api.libs.Files$DefaultTemporaryFileCreator$$FastClassByGuice$$3efa94e1",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.api.libs.Files$DefaultTemporaryFileReaper",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.api.libs.Files$DefaultTemporaryFileReaper$$FastClassByGuice$$e119867a",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.api.libs.Files$TemporaryFileCreator",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.api.libs.Files$TemporaryFileReaper",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.api.libs.Files$TemporaryFileReaperConfigurationProvider",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.api.libs.Files$TemporaryFileReaperConfigurationProvider$$FastClassByGuice$$b839df6a",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.api.libs.concurrent.ActorRefProvider",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.api.libs.concurrent.ActorSystemProvider",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.api.libs.concurrent.ActorSystemProvider$$FastClassByGuice$$1e3c7490",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.api.libs.concurrent.AkkaGuiceSupport",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.api.libs.concurrent.CoordinatedShutdownProvider",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.api.libs.concurrent.CoordinatedShutdownProvider$$FastClassByGuice$$be89876e",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.api.libs.concurrent.DefaultFutures",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.api.libs.concurrent.DefaultFutures$$FastClassByGuice$$aad82eb4",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.api.libs.concurrent.ExecutionContextProvider",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.api.libs.concurrent.ExecutionContextProvider$$FastClassByGuice$$227ccd6d",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.api.libs.concurrent.Futures",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.api.libs.concurrent.MaterializerProvider",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.api.libs.concurrent.MaterializerProvider$$FastClassByGuice$$81e9cdbb",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.api.libs.crypto.CSRFTokenSignerProvider",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.api.libs.crypto.CSRFTokenSignerProvider$$FastClassByGuice$$ee741ef5",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.api.libs.crypto.CookieSignerProvider",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.api.libs.crypto.CookieSignerProvider$$FastClassByGuice$$c7875a5a",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.api.mvc.AbstractController",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.api.mvc.AcceptExtractors",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.api.mvc.ActionBuilder",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.api.mvc.ActionBuilderImpl",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.api.mvc.ActionFunction",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.api.mvc.BaseController",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.api.mvc.BaseControllerHelpers",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.api.mvc.BodyParser",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.api.mvc.BodyParserUtils",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.api.mvc.BodyParsers$Default",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.api.mvc.BodyParsers$Default$$FastClassByGuice$$c5cf9bed",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.api.mvc.ControllerComponents",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.api.mvc.ControllerHelpers",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.api.mvc.CookieBaker",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.api.mvc.CookieDataCodec",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.api.mvc.CookieHeaderEncoding",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.api.mvc.CookiesModule",
+  "allPublicConstructors":true
+},
+{
+  "name":"play.api.mvc.DefaultActionBuilder",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.api.mvc.DefaultActionBuilderImpl",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.api.mvc.DefaultActionBuilderImpl$$FastClassByGuice$$17ec1286",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.api.mvc.DefaultControllerComponents",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.api.mvc.DefaultControllerComponents$$FastClassByGuice$$893d75f1",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.api.mvc.DefaultCookieHeaderEncoding",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.api.mvc.DefaultCookieHeaderEncoding$$FastClassByGuice$$f03bf4a3",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.api.mvc.DefaultFlashCookieBaker",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.api.mvc.DefaultFlashCookieBaker$$FastClassByGuice$$e9ad6944",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.api.mvc.DefaultMessagesActionBuilderImpl",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.api.mvc.DefaultMessagesActionBuilderImpl$$FastClassByGuice$$abc6c19a",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.api.mvc.DefaultMessagesControllerComponents",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.api.mvc.DefaultMessagesControllerComponents$$FastClassByGuice$$7eb97e5d",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.api.mvc.DefaultPlayBodyParsers",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.api.mvc.DefaultPlayBodyParsers$$FastClassByGuice$$679ba2df",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.api.mvc.DefaultSessionCookieBaker",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.api.mvc.DefaultSessionCookieBaker$$FastClassByGuice$$e609e71e",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.api.mvc.EssentialFilter",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.api.mvc.FallbackCookieDataCodec",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.api.mvc.FlashCookieBaker",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.api.mvc.MessagesActionBuilder",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.api.mvc.MessagesActionBuilderImpl",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.api.mvc.MessagesControllerComponents",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.api.mvc.PlayBodyParsers",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.api.mvc.Rendering",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.api.mvc.RequestExtractors",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.api.mvc.RequestImplicits",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.api.mvc.Results",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.api.mvc.SessionCookieBaker",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.api.mvc.request.DefaultRequestFactory",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.api.mvc.request.DefaultRequestFactory$$FastClassByGuice$$c8b4c8bb",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.api.mvc.request.RequestFactory",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.api.routing.Router",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.core.j.DefaultJavaContextComponents",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.core.j.DefaultJavaContextComponents$$FastClassByGuice$$67136dfb",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.core.j.DefaultJavaHandlerComponents",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.core.j.DefaultJavaHandlerComponents$$FastClassByGuice$$502a89d6",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.core.j.JavaContextComponents",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.core.j.JavaHandlerComponents",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.core.j.JavaRouterAdapter",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.core.j.JavaRouterAdapter$$FastClassByGuice$$c05c34cb",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.core.routing.GeneratedRouter",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.core.server.AkkaHttpServerProvider",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"play.filters.cors.CORSConfigProvider",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.filters.cors.CORSConfigProvider$$FastClassByGuice$$c685f094",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.filters.cors.CORSFilterProvider",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.filters.cors.CORSFilterProvider$$FastClassByGuice$$77f6a2ca",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.filters.cors.CORSModule",
+  "allPublicConstructors":true
+},
+{
+  "name":"play.filters.csp.CSPActionBuilder",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.filters.csp.CSPConfigProvider",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.filters.csp.CSPConfigProvider$$FastClassByGuice$$e96f35f8",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.filters.csp.CSPFilter",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.filters.csp.CSPFilter$$FastClassByGuice$$9f3beb1d",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.filters.csp.CSPModule",
+  "allPublicConstructors":true
+},
+{
+  "name":"play.filters.csp.CSPProcessor",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.filters.csp.CSPReportActionBuilder",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.filters.csp.CSPReportBodyParser",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.filters.csp.CSPResultProcessor",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.filters.csp.DefaultCSPActionBuilder",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.filters.csp.DefaultCSPActionBuilder$$FastClassByGuice$$a9ab538b",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.filters.csp.DefaultCSPProcessor",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.filters.csp.DefaultCSPProcessor$$FastClassByGuice$$ee865298",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.filters.csp.DefaultCSPReportActionBuilder",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.filters.csp.DefaultCSPReportActionBuilder$$FastClassByGuice$$64e86637",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.filters.csp.DefaultCSPReportBodyParser",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.filters.csp.DefaultCSPReportBodyParser$$FastClassByGuice$$f73aa7ef",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.filters.csp.DefaultCSPResultProcessor",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.filters.csp.DefaultCSPResultProcessor$$FastClassByGuice$$22865e7b",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.filters.csrf.CSRF$CSRFHttpErrorHandler",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.filters.csrf.CSRF$CSRFHttpErrorHandler$$FastClassByGuice$$da375711",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.filters.csrf.CSRF$ErrorHandler",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.filters.csrf.CSRF$JavaCSRFErrorHandlerDelegate",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.filters.csrf.CSRF$JavaCSRFErrorHandlerDelegate$$FastClassByGuice$$82b24950",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.filters.csrf.CSRF$TokenProviderProvider",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.filters.csrf.CSRF$TokenProviderProvider$$FastClassByGuice$$9e760bd8",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.filters.csrf.CSRFConfigProvider",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.filters.csrf.CSRFConfigProvider$$FastClassByGuice$$cfe80af4",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.filters.csrf.CSRFErrorHandler",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.filters.csrf.CSRFFilter",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.filters.csrf.CSRFFilter$$FastClassByGuice$$eee77c19",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.filters.csrf.CSRFModule",
+  "allPublicConstructors":true
+},
+{
+  "name":"play.filters.gzip.GzipFilter",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.filters.gzip.GzipFilter$$FastClassByGuice$$d84e51f9",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.filters.gzip.GzipFilterConfigProvider",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.filters.gzip.GzipFilterConfigProvider$$FastClassByGuice$$d6cd41ac",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.filters.gzip.GzipFilterModule",
+  "allPublicConstructors":true
+},
+{
+  "name":"play.filters.headers.SecurityHeadersConfigProvider",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.filters.headers.SecurityHeadersConfigProvider$$FastClassByGuice$$6432c3a4",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.filters.headers.SecurityHeadersFilter",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.filters.headers.SecurityHeadersFilter$$FastClassByGuice$$4d0de4c9",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.filters.headers.SecurityHeadersModule",
+  "allPublicConstructors":true
+},
+{
+  "name":"play.filters.hosts.AllowedHostsConfigProvider",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.filters.hosts.AllowedHostsConfigProvider$$FastClassByGuice$$a5856e66",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.filters.hosts.AllowedHostsFilter",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.filters.hosts.AllowedHostsFilter$$FastClassByGuice$$a7d0718b",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.filters.hosts.AllowedHostsModule",
+  "allPublicConstructors":true
+},
+{
+  "name":"play.filters.https.RedirectHttpsConfigurationProvider",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.filters.https.RedirectHttpsConfigurationProvider$$FastClassByGuice$$4b78cde8",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.filters.https.RedirectHttpsFilter",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.filters.https.RedirectHttpsFilter$$FastClassByGuice$$a91580b7",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.filters.https.RedirectHttpsModule",
+  "allPublicConstructors":true
+},
+{
+  "name":"play.http.ActionCreator",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.http.DefaultActionCreator",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.http.DefaultActionCreator$$FastClassByGuice$$abb62be1",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.http.DefaultHttpFilters",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.http.DefaultHttpRequestHandler",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.http.DefaultHttpRequestHandler$$FastClassByGuice$$b57a4078",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.http.HttpErrorHandler",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.http.HttpFilters",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.http.HttpRequestHandler",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.i18n.Langs",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.i18n.Langs$$FastClassByGuice$$b787df4f",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.i18n.MessagesApi",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.i18n.MessagesApi$$FastClassByGuice$$be3730b8",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.inject.DelegateInjector",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.inject.DelegateInjector$$FastClassByGuice$$795a11fc",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.inject.Injector",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.libs.concurrent.HttpExecutionContext",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.libs.concurrent.HttpExecutionContext$$FastClassByGuice$$f0c55f30",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.libs.crypto.CSRFTokenSigner",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.libs.crypto.DefaultCSRFTokenSigner",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.libs.crypto.DefaultCSRFTokenSigner$$FastClassByGuice$$d2926a65",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.mvc.BodyParser",
+  "allDeclaredMethods":true
+},
+{
+  "name":"play.mvc.FileMimeTypes",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"play.mvc.FileMimeTypes$$FastClassByGuice$$1aadef1b",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"play.routing.Router",
+  "allDeclaredMethods":true
+},
+{
+  "name":"router.Routes",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"router.Routes$$FastClassByGuice$$1f117daf",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"scala.Enumeration$Val",
+  "methods":[{"name":"id","parameterTypes":[] }]
+},
+{
+  "name":"scala.Equals",
+  "allDeclaredMethods":true
+},
+{
+  "name":"scala.Function1",
+  "allDeclaredMethods":true
+},
+{
+  "name":"scala.Int"
+},
+{
+  "name":"scala.Long"
+},
+{
+  "name":"scala.None$"
+},
+{
+  "name":"scala.Product",
+  "allDeclaredMethods":true
+},
+{
+  "name":"scala.Serializable",
+  "allDeclaredMethods":true
+},
+{
+  "name":"scala.Some"
+},
+{
+  "name":"scala.Symbol"
+},
+{
+  "name":"scala.concurrent.Future$InternalCallbackExecutor$",
+  "fields":[{"name":"MODULE$"}]
+},
+{
+  "name":"scalapb.GeneratedMessage"
+},
+{
+  "name":"sun.misc.Cleaner",
+  "methods":[{"name":"clean","parameterTypes":[] }]
+},
+{
+  "name":"sun.misc.Unsafe",
+  "allDeclaredFields":true,
+  "methods":[
+    {"name":"arrayBaseOffset","parameterTypes":["java.lang.Class"] }, 
+    {"name":"arrayIndexScale","parameterTypes":["java.lang.Class"] }, 
+    {"name":"copyMemory","parameterTypes":["long","long","long"] }, 
+    {"name":"copyMemory","parameterTypes":["java.lang.Object","long","java.lang.Object","long","long"] }, 
+    {"name":"getBoolean","parameterTypes":["java.lang.Object","long"] }, 
+    {"name":"getByte","parameterTypes":["long"] }, 
+    {"name":"getByte","parameterTypes":["java.lang.Object","long"] }, 
+    {"name":"getDouble","parameterTypes":["java.lang.Object","long"] }, 
+    {"name":"getFloat","parameterTypes":["java.lang.Object","long"] }, 
+    {"name":"getInt","parameterTypes":["long"] }, 
+    {"name":"getInt","parameterTypes":["java.lang.Object","long"] }, 
+    {"name":"getLong","parameterTypes":["long"] }, 
+    {"name":"getLong","parameterTypes":["java.lang.Object","long"] }, 
+    {"name":"getObject","parameterTypes":["java.lang.Object","long"] }, 
+    {"name":"objectFieldOffset","parameterTypes":["java.lang.reflect.Field"] }, 
+    {"name":"putBoolean","parameterTypes":["java.lang.Object","long","boolean"] }, 
+    {"name":"putByte","parameterTypes":["long","byte"] }, 
+    {"name":"putByte","parameterTypes":["java.lang.Object","long","byte"] }, 
+    {"name":"putDouble","parameterTypes":["java.lang.Object","long","double"] }, 
+    {"name":"putFloat","parameterTypes":["java.lang.Object","long","float"] }, 
+    {"name":"putInt","parameterTypes":["long","int"] }, 
+    {"name":"putInt","parameterTypes":["java.lang.Object","long","int"] }, 
+    {"name":"putLong","parameterTypes":["long","long"] }, 
+    {"name":"putLong","parameterTypes":["java.lang.Object","long","long"] }, 
+    {"name":"putObject","parameterTypes":["java.lang.Object","long","java.lang.Object"] }
+  ]
+},
+{
+  "name":"sun.reflect.Reflection",
+  "methods":[{"name":"getCallerClass","parameterTypes":["int"] }]
+}
+]

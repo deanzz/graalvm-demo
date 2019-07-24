@@ -1,0 +1,17 @@
+{
+  "resources":[
+    {"pattern":"META-INF/MANIFEST.MF"}, 
+    {"pattern":"META-INF/log4j-provider.properties"}, 
+    {"pattern":"META-INF/org/apache/logging/log4j/core/config/plugins/Log4j2Plugins.dat"}, 
+    {"pattern":"akka-http-version.conf"}, 
+    {"pattern":"application.conf"}, 
+    {"pattern":"common.conf"}, 
+    {"pattern":"library.properties"}, 
+    {"pattern":"log4j2.xml"}, 
+    {"pattern":"native/libsigar-universal64-macosx.dylib"}, 
+    {"pattern":"org/hyperic/sigar"}, 
+    {"pattern":"org/slf4j/impl/StaticLoggerBinder.class"}, 
+    {"pattern":"reference.conf"}, 
+    {"pattern":"version.conf"}
+  ]
+}
