@@ -46,9 +46,9 @@ class MongoQuerySource(config: MongoConfig)(implicit injector: Injector, system:
   implicit val table = config.table
   val schema = config.schema match {
     case Some(definedSchema) if(definedSchema.name.nonEmpty) =>
-      log.info(s"definedSchema: $definedSchema")
+      //log.info(s"definedSchema: $definedSchema")
       val s = SchemaUtils.apply(definedSchema.name, definedSchema.`type`, table)
-      log.info(s"schema: $s")
+      //log.info(s"schema: $s")
       s
     case _ =>
       val s = inferSchema
@@ -70,8 +70,8 @@ class MongoQuerySource(config: MongoConfig)(implicit injector: Injector, system:
     //build source
     implicit val recordSrc = MongoSource(findResult).map { doc =>
       val record = new Record(schema)
-      log.info(s"mongo schema: $schema")
-      log.info(s"mongo doc: $doc")
+      //log.info(s"mongo schema: $schema")
+      //log.info(s"mongo doc: $doc")
       schema.getFields.foreach { f =>
         val fieldName = f.name
         if (doc.containsKey(fieldName) && null != doc.get(fieldName)) {
@@ -95,7 +95,7 @@ class MongoQuerySource(config: MongoConfig)(implicit injector: Injector, system:
           }
         }
       }
-      log.info(s"Mongo got record $record")
+      //log.info(s"Mongo got record $record")
       record
     }
     recordSrc.log("mongo").viaMat(KillSwitches.single)(Keep.right)

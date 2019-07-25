@@ -62,13 +62,17 @@ lazy val demo = (project in file("demo"))
       "--report-unsupported-elements-at-runtime",
       "-H:+ReportExceptionStackTraces",
       "--verbose",
-      "--allow-incomplete-classpath",
+      //"--allow-incomplete-classpath",
       "--initialize-at-build-time",
       "--no-fallback",
       "-H:ConfigurationFileDirectories=/Users/deanzhang/work/code/github/graalvm-demo/demo/conf/",
       //"-H:+PrintClassInitialization",
       //"-H:ClassInitialization=org.apache.logging.log4j.core.appender.AbstractManager:run_time,org.apache.logging.log4j.core.appender.rolling.RollingFileManager:build_time"
-      //"-H:PrintFlags=+",
+      //"-H:+PrintAOTCompilation",
+      //"-H:+PrintUniverse"
+      //"-R:PrintFlags=User"
+      "-H:PrintFlags=+",
+      //"--no-server"
       //"-H:Class=play.core.server.ProdServerStart"
       //"--force-fallback"
     )

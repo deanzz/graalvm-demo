@@ -97,6 +97,7 @@ message TaskInfo {
     SourceInfo source = 2;
     repeated TransformerInfo transformers = 3;
     uint32 monitorDuration = 4;
+    uint64 startTime = 5;
 }
 
 enum TaskStatus {

@@ -2554,9 +2554,6 @@
   "name":"scala.Some"
 },
 {
-  "name":"scala.Symbol"
-},
-{
   "name":"scala.concurrent.Future$InternalCallbackExecutor$",
   "fields":[{"name":"MODULE$"}]
 },

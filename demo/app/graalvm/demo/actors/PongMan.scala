@@ -8,7 +8,7 @@ import javax.inject.Inject
 class PongMan @Inject()() extends Actor{
   override def receive: Receive = {
     case Ping(n) =>
-      val res = (0 to 10000).flatMap(i => fibSeq(i.toLong))
+      val res = (0 to 500000).flatMap(i => fibSeq(i.toLong))
       sender() ! Pong(res.sum.toString)
   }
 

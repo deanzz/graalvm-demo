@@ -44,7 +44,7 @@ class FinalStateOnComplete(pid: String, step: Long, leader: ActorRef)
         push(out, ele)
         cursor += 1L
         val r = generateAvroRecord(ele)
-        log.info(s"onPush got $r")
+        //log.info(s"onPush got $r")
         result += r
         /*
         if (count == step) {

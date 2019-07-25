@@ -15,7 +15,7 @@ import org.apache.avro.io.DecoderFactory
 
 class NodeStateQuery @Inject()() extends Actor with ActorLogging {
   val nodes = scala.collection.mutable.Map.empty[Address, NodeState]
-  val taskResult = scala.collection.mutable.Map.empty[String, Seq[String]]
+  val taskResult = scala.collection.mutable.Map.empty[String, (Seq[String], Long)]
   implicit val ord = new Ordering[NodeState] {
     def compare(p1: NodeState, p2: NodeState) = {
       if (p1.load == p2.load) {
@@ -99,7 +99,10 @@ class NodeStateQuery @Inject()() extends Actor with ActorLogging {
           if (nodes.contains(sender().path.address)) {
             val t = nodes(sender().path.address).tasks(state.id)
             val res = state.result.map(record2json)
-            taskResult += t.id -> res
+            val startTime = state.getTask.startTime
+            val usedTime = System.currentTimeMillis() - startTime
+            log.info(s"Task ${t.id} complete, usedTime = ${usedTime}ms")
+            taskResult += t.id -> (res, usedTime)
             nodes(sender().path.address).tasks.remove(state.id)
           }
 
@@ -123,7 +126,7 @@ class NodeStateQuery @Inject()() extends Actor with ActorLogging {
       nodes += address -> state
 
     case GetTaskResult(id) =>
-      sender() ! taskResult.getOrElse(id, Seq.empty[String])
+      sender() ! taskResult.getOrElse(id, (Seq.empty[String], 0L))
 
   }
 

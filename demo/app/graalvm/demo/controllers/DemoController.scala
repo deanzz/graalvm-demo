@@ -42,13 +42,11 @@ class DemoController @Inject()(configuration: Configuration,
 
   def ping(n: Long) = Action.async {
     implicit req =>
-      val start = System.nanoTime()
+      val start = System.currentTimeMillis()
       (pingMan ? Ping(n)).map {
         res =>
           val pong = res.asInstanceOf[Pong]
-          val end = System.nanoTime()
-          val seq = s"used ${end - start}ns\n${pong.s}"
-          Ok(seq)
+          Ok( s"res = ${pong.s}, used ${System.currentTimeMillis() - start}ms")
       }
   }
 
@@ -80,7 +78,7 @@ class DemoController @Inject()(configuration: Configuration,
       val transformers = Seq(
         TransformerInfo(TransformerType.STATELESS_FILTER, Some(Any.pack(filterParam)))
       )
-      val taskInfo = TaskInfo(taskId, Some(source), transformers)
+      val taskInfo = TaskInfo(taskId, Some(source), transformers, startTime = System.currentTimeMillis())
       (registry ? taskInfo).map{
         case r: PipelineSubmitResponse =>
           Ok(s"Task ${r.id} is ${r.pipeStatus.name}, $connConfig")
@@ -96,8 +94,11 @@ class DemoController @Inject()(configuration: Configuration,
     implicit req =>
       (nodeStateQuery ? GetTaskResult(id)).map{
         res =>
-          val seq = res.asInstanceOf[Seq[String]].map(JsString)
-          Ok(Json.arr(seq))
+          val (seq, usedTime) = res.asInstanceOf[(Seq[String], Long)]
+          Ok(Json.obj(
+            "usedTime" -> usedTime,
+            "result" -> Json.arr(seq.map(JsString))
+          ))
       }
   }
 
