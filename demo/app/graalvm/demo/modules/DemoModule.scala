@@ -17,6 +17,7 @@ class DemoModule extends AbstractModule with AkkaGuiceSupport {
     bindActor[PongMan]("pong-man")
     bindActor[ClusterMonitor]("cluster-monitor")
     bindActor[NodeStateQuery]("node-state-query")
+    bindActor[MetricsListener]("metrics-listener")
   }
 
   @Provides
